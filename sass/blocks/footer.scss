@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  min-height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 0 3px 0 black;
+  &__copyright {
+    margin: 0;
+  }
+  background-color: $accent;
+  &__contacts {
+    margin-left: auto;
+    & a {
+      color: $white;
+    }
+  }
+}

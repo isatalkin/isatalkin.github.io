@@ -1,0 +1,18 @@
+.page {
+  background-color: $primary;
+  color: $white;
+  &__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    // background-image: url('../img/695931.jpg');
+    // background-repeat: no-repeat;
+    // background-position: top center;
+    // background-size: cover;
+  }
+}
+
+a {
+  color: $accent;
+}

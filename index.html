@@ -9,58 +9,69 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
-<body>
+<body class="page">
 
-  <header>
+  <div class="page__inner">
 
-    <h1>Sato</h1>
-    <h2>Вёрстка и фронтенд</h2>
-    <p><b>Адаптив, кроссбраузерность, семантика, оптимизация. И ничего лишнего!</b></p>
+    <header class="header">
 
-  </header>
+      <h1 class="header__title">Sato</h1>
+      <h2 class="header__subtitle">Вёрстка и фронтенд</h2>
+      <p><b>Адаптив, кроссбраузерность, семантика.<br>И ничего лишнего!</b></p>
 
-  <main>
+    </header>
 
-    <section class="projects">
+    <main class="main">
 
-      <h2 class="projects__title">Последние проекты</h2>
+      <section class="projects">
 
-      <div class="projects__gallery">
+        <h2 class="projects__title">Последние проекты</h2>
 
-        <div class="projects__item">
-          <h3>Wiconnect</h3>
-          <p>Вёрстка</p>
-          <a class="button" href="#">Посмотреть</a>
+        <div class="projects__gallery">
+
+          <div class="projects__item">
+            <h3 class="projects__subtitle">Wiconnect</h3>
+            <p class="projects__description">Вёрстка</p>
+            <img class="projects__img" src="img/content/project2.png" alt="">
+            <a class="projects__button  button" href="#">Посмотреть</a>
+          </div>
+
+          <div class="projects__item">
+            <h3 class="projects__subtitle">Cherkizon</h3>
+            <p class="projects__description">Вёрстка, JS</p>
+            <img class="projects__img" src="img/content/project1.png" alt="">
+            <a class="projects__button  button" href="#">Посмотреть</a>
+          </div>
+
+          <div class="projects__item">
+            <h3 class="projects__subtitle">Keksobooking</h3>
+            <p class="projects__description">JS</p>
+            <img class="projects__img" src="img/content/project1.png" alt="">
+            <a class="projects__button  button" href="#">Посмотреть</a>
+          </div>
+
         </div>
 
-        <div class="projects__item">
-          <h3>Cherkizon</h3>
-          <p>Вёрстка</p>
-          <a class="button" href="#">Посмотреть</a>
-        </div>
+      </section>
 
-        <div class="projects__item">
-          <h3>Keksobooking</h3>
-          <p>JS</p>
-          <a class="button" href="#">Посмотреть</a>
-        </div>
+    </main>
 
+    <footer class="footer">
+
+      <p class="footer__copyright">© 2018 - Sato</p>
+
+      <div class="footer__contacts">
+        <a href="#">Telegram</a>
+        <a href="#">Mail</a>
       </div>
 
-    </section>
+    </footer>
 
-  </main>
+    <div class="modal-shadow"></div>
 
-  <footer>
+  </div>
 
-    <div class="contacts">
-      <a href="#">Telegram</a>
-      <a href="#">Mail</a>
-    </div>
-
-    <p class="copyright">© 2018 - Sato</p>
-
-  </footer>
+  <script src="js/main.min.js"></script>
 
 </body>
 
