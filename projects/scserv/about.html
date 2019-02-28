@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCSERV</title>
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement('picture');
+  </script>
+  <script src="js/libraries/picturefill.min.js" async=""></script>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header__top" id="header-top">
+    
+      <a class="header__logo" href="main.html">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/content/logo-desktop.png 1x, img/content/logo-desktop@2x.png 2x">
+          <img src="img/content/logo.png" srcset="img/content/logo.png 1x, img/content/logo@2x.png 2x" alt="Акционерное Общество «СмартКард-Сервис»">
+        </picture>
+        <span class="header__title"><small>Акционерное Общество</small>«СмартКард-Сервис»</span>
+      </a>
+    
+      <div class="header__contacts  contacts">
+        <p class="contacts__phones">
+          <a class="contacts__link  contacts__link--call" href="tel:+74959811210">+7 (495) 981-12-10</a><br>
+          <a class="contacts__link  contacts__link--call" href="tel:88001003164">8 (800) 100-31-64</a><br>
+          (звонок по России бесплатный)
+        </p>
+    
+        <form class="lang" action="#">
+          <input class="lang__radio" type="radio" id="lang-ru" name="language" value="ru" checked>
+          <label class="lang__label  lang__label--ru" for="lang-ru">Ru</label>
+          <input class="lang__radio" type="radio" id="lang-en" name="language" value="en">
+          <label class="lang__label  lang__label--en" for="lang-en">Eng</label>
+          <input class="lang__radio" type="radio" id="lang-es" name="language" value="es">
+          <label class="lang__label  lang__label--es" for="lang-es">Spain</label>
+        </form>
+      </div>
+    
+    </div>
+    
+    <div class="header__middle">
+    
+      <nav class="header__nav  nav">
+        <button class="header__burger">Toggle menu</button>
+    
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="about.html">О компании</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="solutions.html">Решения</a>
+            <ul class="dropdown">
+              <li class="dropdown__nav">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item">Прикладное ПО</li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME 7™</a></li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME 7™ Payment Engine</a></li>
+                </ul>
+              </li>
+              <li class="dropdown__nav">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item">Системы безопасности</li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME 7™ Advanced Security</a></li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">Application Control</a></li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME-Eye™</a></li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME-Eye™ SmartDefender</a></li>
+                </ul>
+              </li>
+              <li class="dropdown__nav">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item">Системы мониторинга</li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME™ Monitoring</a></li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">Партнерские системы</a></li>
+                </ul>
+              </li>
+              <li class="dropdown__nav">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item">Инструментарий для WEB-расширений</li>
+                  <li class="dropdown__item"><a class="dropdown__link" href="solution.html">TellME™ WebExtension</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
+          <li class="nav__item"><a class="nav__link" href="clients.html">Клиенты</a></li>
+          <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+    
+        <form class="search" action="#">
+          <label class="search__label" for="search-input">Поиск</label>
+          <input class="search__input" id="search-input" type="text" placeholder="Поиск по сайту">
+        </form>
+      </nav>
+    
+    </div>
+
+    <div class="header__hero header__hero--about header__hero--inner-page">
+      <picture>
+        <source media="(min-width: 992px)" srcset="img/bg-about-desktop@1x.jpg 1x, img/bg-about-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="img/bg-about-tablet@1x.jpg 1x, img/bg-about-tablet@2x.jpg 2x">
+        <img  class="header__img" src="img/bg-about-mobile@1x.jpg" srcset="img/bg-about-mobile@1x.jpg 1x, img/bg-about-mobile@2x.jpg 2x" alt="about">
+      </picture>
+    </div>
+  </header>
+
+  <main class="main">
+    <nav class="breadcrumbs">
+      <a href="main.html" class="breadcrumbs__link">Главная</a>
+      <p class="breadcrumbs__text">О компании</p>
+    </nav>
+    <section class="content">
+      <span class="content__title">О компании</span>
+      <div class="content__column">
+        <p class="content__text"><b>Компания "СмартКард-Сервис"</b> является одним из лидеров на рынке комплексных решений для платежных и банковских систем. Свою деятельность компания начала в 1997 году и в настоящее время ведет проекты в ряде крупных банков России, СНГ и зарубежных стран.</p>
+        <p class="content__text">Штат компании составляет более 50 человек. Это высококвалифицированные специалисты в области банковских технологий, маркетинга и консалтинга, ведения проектов и интеграции платежных систем, инсталляции и технической поддержки программного и аппаратного обеспечения.</p>
+        <p class="content__text"><b>ЗАО "СмартКард-Сервис"</b> поддерживает тесные партнерские отношения с международными компаниями, занимающими ведущие позиции в своих сегментах рынка (NCR Corporation, Wincor Nixdorf, Diebold, HYOSUNG). Кроме того, компания активно развивает сеть локальных парт</p>
+      </div>
+      <p class="content__text">Программные продукты и оборудование, поставленные компанией, используются более чем в 900 отделениях банков. Установлено около 100'000 лицензий программного обеспечения <b>TellME</b>, <b>TellME-Monitoring</b> и <b>MassPay</b>. На базе собственного учебного центра обучено более 2'000 технических специалистов банков.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+  
+    <div class="footer__top">
+  
+      <a class="button  footer__ontop  footer__ontop--left" href="#header-top">Наверх</a>
+      <a class="button  footer__ontop  footer__ontop--right" href="#header-top">Наверх</a>
+  
+      <div class="footer__contacts  contacts">
+        <p class="contacts__text">Акционерное Общество<br>
+          <span class="contacts__name">«СмартКард-Сервис»</span><br>
+          127106, г. Москва, Алтуфьевское шоссе, д. 1<br>
+          <a class="contacts__link  contacts__link--map" href="#">Как добраться?</a>
+        </p>
+  
+        <p class="contacts__phones">
+          <a class="contacts__link  contacts__link--call" href="tel:+74959811210">+7 (495) 981-12-10</a><br>
+          <a class="contacts__link  contacts__link--call" href="tel:88001003164">8 (800) 100-31-64</a><br>
+          (звонок по России бесплатный)
+        </p>
+  
+        <p class="contacts__links">
+          <a class="contacts__link  contacts__link--mailto" href="mailto:reception@scserv.ru">reception@scserv.ru</a><br>
+          <a class="contacts__link  contacts__link--feedback  js-open-popup" href="#">Обратная связь</a>
+        </p>
+      </div>
+  
+      <nav class="footer__nav  nav">
+  
+        <ul class="nav__list">
+          <li class="nav__item  nav__item--title">Информация</li>
+          <li class="nav__item"><a class="nav__link" href="#">О компании</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Клиенты</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+        </ul>
+  
+        <ul class="nav__list">
+          <li class="nav__item  nav__item--title">Услуги</li>
+          <li class="nav__item"><a class="nav__link" href="#">Консалтинг</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Сопровождение ПО</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Обучение</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Сертификация</a></li>
+        </ul>
+  
+        <ul class="nav__list">
+          <li class="nav__item  nav__item--title">Решения</li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™ Payment Engine</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™ Advanced Security</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™ WebExtension</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™ EYE™</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™ EYE™ SmartDefender</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">TellME 7™ Monitoring</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Партнерские системы мониторинга</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Application Control</a></li>
+        </ul>
+  
+      </nav>
+  
+    </div>
+  
+    <div class="footer__bottom">
+      <p class="footer__copyright">1997-2018 © <a href="main.html" target="smartcard">АО «СмартКард-Сервис»</a></p>
+      <p class="footer__developer"><a href="https://pixelplus.ru/" target="pixelplus">Создание сайта</a> — Пиксель Плюс</p>
+    </div>
+  
+  </footer>
+
+  <section class="feedback-popup  feedback-popup--off  js-popup">
+    <div class="feedback-popup__container">
+      <form class="feedback-popup__form" action="#" method="post">
+        <h2 class="feedback-popup__heading">Обратная связь</h2>
+        <label class="feedback-popup__label">
+          ФИО
+          <input data-required="Y" class="feedback-popup__input" type="text" name="user__name">
+          <span class="feedback-popup__error-message">Поле заполнено не корректно</span>
+        </label>
+        <label class="feedback-popup__label">
+          Организация
+          <input data-required="" class="feedback-popup__input" type="text" name="user_organization">
+          <span class="feedback-popup__error-message">Поле заполнено не корректно</span>
+        </label>
+        <label class="feedback-popup__label">
+          E-mail
+          <input data-required="Y" class="feedback-popup__input" type="email" name="user_email">
+          <span class="feedback-popup__error-message">Поле заполнено не корректно</span>
+        </label>
+        <label class="feedback-popup__label">
+          Текст сообщения
+          <input data-required="Y" class="feedback-popup__input" type="text" name="MESSAGE">
+          <span class="feedback-popup__error-message">Поле заполнено не корректно</span>
+        </label>
+        <label class="feedback-popup__label">
+          <span class="feedback-popup__lonely-in-row">Введите символы с картинки</span>
+          <span class="feedback-popup__img-captcha">
+              <input type="hidden" name="captcha_sid" value="" >
+              <img src="img/captcha.png" width="109" height="37" alt="CAPTCHA">
+            </span>
+          <input data-required="Y" class="feedback-popup__input  feedback-popup__input--captcha" type="text" name="captcha_word">
+        </label>
+        <input data-required="Y" id="agree-politics" type="checkbox" class="visually-hidden" name="agree" value="true">
+        <label for="agree-politics" class="feedback__check-box">
+          Согласен с
+          <a href="#" class="feedback-popup__link">политикой конфиденциальности</a>
+        </label>
+        <button type="submit" class="feedback-popup__submit">Отправить</button>
+      </form>
+      <button type="button" class="feedback-popup__close-btn  js-close-btn" aria-label="Закрыть всплывающее окно"></button>
+    </div>
+  </section>
+
+  <!-- Тут подключаются обязательные для всего сайта скрипты -->
+  <script src="js/ie-support.min.js"></script>
+  <script src="js/libraries/svg4everybody.min.js"></script>
+  <script src="js/header-nav.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/libraries/wow.min.js"></script>
+  <script src="js/contacts-popup.min.js"></script>
+  <!-- Скрипты для отдельной страницы подключайте сюда -->
+  <script src="js/animate.js"></script>
+
+</body>
+
+</html>
