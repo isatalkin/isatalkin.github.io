@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera People</title>
+  <link rel="preload" href="fonts/Gerbera.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gerbera-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gerbera-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"> -->
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement('picture');
+  </script>
+  <script src="js/libraries/picturefill.min.js" async=""></script>
+</head>
+
+<body>
+
+  <div class="global-wrapper">
+
+    <header class="header">
+      <a class="header__logo" href="#">
+        <img alt="Camera People logo" draggable="false" height="72" src="img/content/logo.png" srcset="img/content/logo@2x.png 2x" width="184">
+      </a>
+    
+      <div class="header__wrapper">
+    
+        <nav>
+          <ul class="header__nav-list">
+            <li><a class="header__nav-link" href="#">Оборудование</a></li>
+            <li><span class="header__nav-link header__nav-link--current">Условия</span></li>
+            <li><a class="header__nav-link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+    
+        <div class="header__phone">
+          <a class="header__nav-link header__nav-link--phone" href="tel:88007717777">8-800-771-7777</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="contact-main">
+      <h1 class="visually-hidden">Контакты</h1>
+      <div class="contact-main__wrapper">
+        <section class="contact-wrapper">
+          <div class="section contact">
+            <h2 class="visually-hidden">Приветствие</h2>
+            <p class="contact-description">
+              <span>Не стесняйтесь позвонить нам!</span>
+              Мы с радостью подберем оборудование
+              для&nbsp;вашей видеосъемки, ну или просто
+              поболтаем о новинках техники.
+            </p>
+            <div class="contact__person-wrapper">
+              <div class="contact__person-inner">
+                <div class="contact__person-logo">
+                  <img src="img/content/logo-contact.png" alt="Camera People logo" width="110" height="44">
+                </div>
+                <div class="contact__dicoration-wrapper">
+                  <p class="contact__person-name">Максим</p>
+                  <p class="contact__person-name contact__person-name--post">Технический директор проката CAMERA people</p>
+                  <div class="contact__oval-decor">
+                    <a class="contact__person-phone" href="tel:+78007717777">8-800-771-7777</a>
+                    <p class="contact-person-address contact-person-address--desktop">г.Москва, Хорошевское Шоссе 12,
+                      К1</p>
+                    <a class="contact__person-email">kripeagle@gmail.com</a>
+                  </div>
+                </div>
+                <p class="contact__person-write">Напиши нам в мессенджер</p>
+
+                <ul class="contact__person-messangers">
+                  <li><a class="contact__person-link  contact__person-link--tg" href="#"><span class="visually-hidden">Telegram</span><svg
+                        xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="nonzero">
+                          <path fill="#5A06FF" d="M1.818 20C1.818 9.958 6.086 1.97 20 1.818c10.042 0 18.182 3.767 18.182 18.182 0 12.064-3.4 18.182-18.182 18.182C2.208 37.17 1.818 30.042 1.818 20z"
+                            opacity=".7" />
+                          <path fill="#FFF" d="M8.424 20.052l5.53 2.064 2.14 6.883a.651.651 0 0 0 1.034.312l3.083-2.513a.92.92 0 0 1 1.121-.032l5.56 4.037a.652.652 0 0 0 1.021-.394l4.073-19.591a.652.652 0 0 0-.873-.741L8.417 18.832a.652.652 0 0 0 .007 1.22zm7.326.965l10.807-6.657c.195-.119.394.144.228.298l-8.92 8.292a1.849 1.849 0 0 0-.573 1.106l-.304 2.252c-.04.3-.462.33-.545.04l-1.169-4.107a1.088 1.088 0 0 1 .476-1.224z" />
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                  <li><a class="contact__person-link  contact__person-link--wa" href="#"><span class="visually-hidden">WhatsApp</span><svg
+                        xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="nonzero">
+                          <path fill="#5A06FF" d="M2 20.182C2 10.14 7.276 1.982 20.182 2c10.042 0 18.67 3.078 18.182 18.182-2.416 15.431-3.4 18.182-18.182 18.182C5.4 38.364 2 30.224 2 20.182z"
+                            opacity=".7" />
+                          <path fill="#FFF" d="M32 19.69c0 6.458-5.274 11.692-11.782 11.692-2.066 0-4.007-.528-5.695-1.455L8 32l2.127-6.273a11.568 11.568 0 0 1-1.691-6.036C8.436 13.234 13.711 8 20.218 8 26.726 8 32 13.234 32 19.69zM20.218 9.863c-5.462 0-9.905 4.41-9.905 9.829 0 2.15.7 4.142 1.886 5.763l-1.237 3.65 3.807-1.21a9.9 9.9 0 0 0 5.45 1.626c5.461 0 9.905-4.409 9.905-9.829 0-5.42-4.444-9.83-9.906-9.83zm5.95 12.521c-.073-.119-.265-.19-.554-.334-.289-.143-1.71-.837-1.973-.932-.265-.095-.458-.143-.65.143-.193.287-.746.932-.915 1.123-.169.192-.337.216-.626.073-.288-.143-1.219-.446-2.322-1.422-.858-.76-1.438-1.697-1.607-1.985-.168-.286-.017-.441.127-.584.13-.128.29-.335.433-.502.145-.167.193-.286.289-.478.097-.191.048-.358-.024-.502-.072-.143-.65-1.553-.89-2.127-.241-.574-.482-.478-.65-.478-.169 0-.361-.024-.554-.024-.193 0-.506.072-.77.358-.265.287-1.01.98-1.01 2.39 0 1.41 1.034 2.773 1.178 2.964.145.19 1.998 3.179 4.934 4.326 2.936 1.147 2.936.764 3.466.716.529-.047 1.708-.693 1.95-1.362.24-.67.24-1.243.168-1.363z" />
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                  <li><a class="contact__person-link  contact__person-link--vb" href="#"><span class="visually-hidden">Viber</span><svg
+                        xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="evenodd">
+                          <path fill="#5A06FF" fill-rule="nonzero" d="M2 20.182C2 10.14 2 2 20.182 2c10.042 0 16.452 4.097 18.182 18.182 0 12.064-3.4 18.182-18.182 18.182C5.4 38.364 2 30.224 2 20.182z"
+                            opacity=".7" />
+                          <g fill="#FFF">
+                            <path fill-rule="nonzero" d="M31.445 14.012l-.007-.029c-.577-2.33-3.176-4.832-5.563-5.352l-.027-.006a30.917 30.917 0 0 0-11.638 0l-.027.006c-2.387.52-4.986 3.021-5.564 5.352l-.006.029a22.777 22.777 0 0 0 0 9.812l.006.029c.553 2.231 2.959 4.618 5.257 5.274v2.602c0 .942 1.148 1.405 1.8.725l2.637-2.74c.572.032 1.144.05 1.716.05 1.944 0 3.888-.184 5.819-.553l.027-.005c2.387-.52 4.986-3.022 5.563-5.353l.007-.029a22.778 22.778 0 0 0 0-9.812zm-2.086 9.34c-.385 1.521-2.359 3.412-3.927 3.761-2.053.39-4.123.557-6.19.5a.147.147 0 0 0-.11.044l-1.924 1.976-2.048 2.102a.24.24 0 0 1-.413-.166v-4.31a.149.149 0 0 0-.12-.146h-.002c-1.568-.35-3.541-2.24-3.927-3.76a20.67 20.67 0 0 1 0-8.869c.386-1.52 2.36-3.412 3.927-3.76a28.794 28.794 0 0 1 10.807 0c1.569.348 3.542 2.24 3.927 3.76a20.648 20.648 0 0 1 0 8.868z" />
+                            <path d="M23.44 25.342c-.24-.073-.47-.122-.684-.211-2.21-.917-4.246-2.1-5.858-3.915-.917-1.032-1.634-2.197-2.24-3.43-.288-.584-.53-1.191-.778-1.795-.225-.55.107-1.119.456-1.533.328-.39.75-.687 1.207-.907.357-.171.708-.072.969.23.563.653 1.08 1.34 1.499 2.098.257.466.187 1.035-.28 1.352-.114.077-.217.168-.323.255-.092.076-.18.153-.243.256a.703.703 0 0 0-.047.618c.576 1.581 1.546 2.811 3.138 3.474.254.106.51.23.804.195.491-.058.65-.597.995-.878.336-.276.766-.28 1.13-.05.362.23.713.476 1.063.725.343.245.684.484 1 .763.305.267.41.619.239.983-.314.666-.77 1.22-1.429 1.573-.186.1-.408.132-.617.197-.242-.073.21-.065 0 0zM20.035 12.79c2.892.08 5.268 2 5.777 4.86.087.487.118.985.156 1.48.016.208-.101.405-.326.408-.232.003-.336-.191-.351-.4-.03-.41-.05-.824-.107-1.232-.3-2.155-2.018-3.937-4.162-4.32-.323-.058-.653-.073-.98-.107-.207-.022-.477-.034-.523-.291-.039-.215.143-.387.348-.398.056-.003.112 0 .168 0 2.892.08-.056 0 0 0z" />
+                            <path d="M24.43 18.488c-.004.036-.007.12-.028.2-.077.291-.517.327-.618.034a.874.874 0 0 1-.035-.28c-.001-.612-.134-1.224-.443-1.757a3.27 3.27 0 0 0-1.372-1.287 3.946 3.946 0 0 0-1.093-.335c-.165-.028-.332-.044-.497-.067-.201-.028-.308-.156-.299-.354.01-.185.145-.318.347-.307.663.038 1.305.181 1.895.494 1.2.635 1.885 1.638 2.085 2.978.01.06.024.12.028.181.012.15.019.301.03.5-.004.036-.011-.199 0 0z" />
+                            <path d="M22.631 18.418c-.242.004-.371-.13-.396-.352-.017-.154-.031-.311-.068-.462a1.3 1.3 0 0 0-.48-.752 1.252 1.252 0 0 0-.39-.189c-.178-.051-.362-.037-.54-.08-.192-.048-.298-.203-.268-.384a.348.348 0 0 1 .367-.28c1.121.082 1.923.661 2.037 1.982.008.093.018.191-.003.28-.035.153-.148.23-.259.237-.242.004.11-.008 0 0z" />
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="section contact-address ">
+            <p class="contact-description contact-description--comments">Мы находимся в 2-х минутах от станции
+              метро Беговая. Все для вас, удобно и близко. Приезжайте в гости :)
+            </p>
+            <div class="contact-map-wrapper">
+              <div class="contact-map-container" id="map"></div>
+            </div>
+            <p class="contact-person-address contact-person-address--mobile">г.Москва, Хорошевское Шоссе 12, К1</p>
+          </div>
+          <div class="contact-decoration">
+            <p>У меня лапки! я не могу(((
+              А ты можешь ! Бронируй!</p>
+            <a class="btn" href="#">Посмотреть оборудование</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li><a class="footer__nav-link" href="#">Условия</a></li>
+        <li><a class="footer__nav-link" href="#">Оборудование</a></li>
+        <li><a class="footer__nav-link" href="#">Контакты</a></li>
+      </ul>
+      <ul class="socials-list">
+        <li><a class="socials-list__link  socials-list__link--fb" href="#"><span class="visually-hidden">Fb</span></a></li>
+        <li><a class="socials-list__link  socials-list__link--vk" href="#"><span class="visually-hidden">Vk</span></a></li>
+        <li><a class="socials-list__link  socials-list__link--inst" href="#"><span class="visually-hidden">Inst</span></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Тут подключаются обязательные для всего сайта скрипты -->
+  <script src="js/ie-support.min.js"></script>
+  <script src="js/libraries/svg4everybody.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/menu.js"></script>
+  <!-- Скрипты для отдельной страницы подключайте сюда -->
+  <script src="#"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <script src="js/libraries/ymap.js"></script>
+
+</body>
+
+</html>

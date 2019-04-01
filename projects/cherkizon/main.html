@@ -14,7 +14,7 @@
 </head>
 
 <body class="index">
-  <header class="main-header  screen">
+  <header class="main-header">
 
     <h1 class="visually-hidden">Cherkizovo</h1>
     <div class="main-header__logo  fadeIn">
@@ -26,15 +26,16 @@
         Качество от фермы
         <br>до прилавка
       </div>
-      <p class="main-header__description">Крупнейший в России производитель мясной продукции и комбикормов. Группа входит в тройку лидеров на рынках куриного мяса, свинины и продуктов мясопереработки.</p>
-      <a class="button  main-header__button" href="#">о компании</a>
+      <p class="main-header__description">Крупнейший в России производитель мясной продукции и комбикормов. Группа
+        входит в тройку лидеров на рынках куриного мяса, свинины и продуктов мясопереработки.</p>
+      <a class="button  main-header__button" href="about.html">о компании</a>
     </div>
 
   </header>
 
   <aside class="sidebar" id="sidebar">
   
-      <a class="sidebar__logo" href="#">
+      <a class="sidebar__logo" href="main.html">
         <img src="img/sidebar-logo.svg" alt="Черкизово">
       </a>
       <div class="sidebar__container">
@@ -44,10 +45,10 @@
           <nav class="sidebar__nav">
             <ul class="sidebar__list">
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">О компании</a>
+                <a class="sidebar__link" href="about.html">О компании</a>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Бренды</a>
+                <a class="sidebar__link" href="brands.html">Бренды</a>
                 <ul class="sidebar__submenu">
                   <li class="sidebar__submenu-item">
                     <a class="sidebar__submenu-link" href="#">Корпоративная</a>
@@ -82,42 +83,50 @@
                 </ul>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Инвесторам</a>
+                <a class="sidebar__link" href="investors.html">Инвесторам</a>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Пресс-центр</a>
+                <a class="sidebar__link" href="press.html">Пресс-центр</a>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Партнерам</a>
+                <a class="sidebar__link" href="partners.html">Партнерам</a>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Карьера</a>
+                <a class="sidebar__link" href="career.html">Карьера</a>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Закупки</a>
+                <a class="sidebar__link" href="sales.html">Закупки</a>
               </li>
               <li class="sidebar__item">
-                <a href="#" class="sidebar__link">Контакты</a>
+                <a class="sidebar__link" href="contacts.html">Контакты</a>
               </li>
             </ul>
           </nav>
   
+          <div class="search__section  sidebar__search">
+            <h2 class="search__title">Поиск</h2>
+            <form class="search__form" action="search-result.html">
+              <input class="search__input" type="text" name="" id="" placeholder="Например «Путин»" required>
+              <button class="search__submit  button" type="submit">Искать</button>
+            </form>
+          </div>
+  
           <ul class="controls">
             <li class="controls__item">
-              <a href="#" class="controls__language-select">Eng</a>
+              <a class="controls__language-select" href="#">Eng</a>
             </li>
             <li class="controls__item">
-              <a href="#" class="controls__language-select">Rus</a>
+              <a class="controls__language-select" href="#">Rus</a>
             </li>
             <li class="controls__item">
-              <a href="#" class="controls__social" aria-label="Facebook">
+              <a class="controls__social" href="#" aria-label="Facebook">
                 <svg width="9" height="21" aria-hidden="true">
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svg-sprite/sprite.svg#fb"></use>
                 </svg>
               </a>
             </li>
             <li class="controls__item">
-              <a href="#" class="controls__search" aria-label="Поиск">
+              <a class="controls__search" href="search.html" aria-label="Поиск">
                 <svg width="22" height="22" aria-hidden="true">
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svg-sprite/sprite.svg#search"></use>
                 </svg>
@@ -129,50 +138,71 @@
     </aside>
 
   <main class="main">
-    <section class="section  numbers  screen" id="numbers">
-      <h2 class="section__title">
-        <span>Цифры</span>
-      </h2>
+    <section class="section  numbers animate" id="numbers">
 
-      <ul class="numbers__list">
-        <li class="numbers__item">
-          <div class="numbers__title">Объем выручки</div>
-          <p class="numbers__value">90,5
-            <small>млрд рублей</small>
+      <ul class="numbers__slider  wow  fadeInLeft" data-wow-delay="1s">
+
+        <li class="numbers__slide  numbers__slide--show">
+          <p class="numbers__value">
+            <small>№</small>2
           </p>
+          <div class="numbers__description">
+            <p class="numbers__text">Среди российских производителей мяса</p>
+          </div>
+          <small class="numbers__footnote">по данным рейтинга «Агроинвестора»</small>
         </li>
-        <li class="numbers__item">
-          <div class="numbers__title">Объем производства</div>
-          <p class="numbers__value">1 000 000
-            <small>тонн</small>
+
+        <li class="numbers__slide">
+          <p class="numbers__value">
+            <small>№</small>1
           </p>
+          <div class="numbers__description">
+            <p class="numbers__text">по производству мяса птицы</p>
+          </div>
+          <small class="numbers__footnote">по данным рейтинга «Агроинвестора»</small>
         </li>
-        <li class="numbers__item">
-          <div class="numbers__title">Птицеводческих комплексов</div>
-          <p class="numbers__value">8</p>
+
+        <li class="numbers__slide">
+          <p class="numbers__value">
+            <small>№</small>1
+          </p>
+          <div class="numbers__description">
+            <p class="numbers__text">по производству комбикормов</p>
+          </div>
+          <small class="numbers__footnote">по данным рейтинга «Агроинвестора»</small>
         </li>
-        <li class="numbers__item">
-          <div class="numbers__title">Свинокомплексов</div>
-          <p class="numbers__value">16</p>
+
+        <li class="numbers__slide">
+          <p class="numbers__value">
+            <small>№</small>2
+          </p>
+          <div class="numbers__description">
+            <p class="numbers__text">по производству свинины</p>
+          </div>
+          <small class="numbers__footnote">по данным рейтинга «Агроинвестора»</small>
         </li>
-        <li class="numbers__item">
-          <div class="numbers__title">Мясоперерабатывающих<br class="mobile-hidden"> предприятий</div>
-          <p class="numbers__value">6</p>
-        </li>
-        <li class="numbers__item">
-          <div class="numbers__title">Комбикормовых заводов</div>
-          <p class="numbers__value">9</p>
+
+        <li class="numbers__slide">
+          <p class="numbers__value">
+            <small>Бренд №</small>1
+          </p>
+          <div class="numbers__description">
+            <p class="numbers__text">на рынке колбас</p>
+          </div>
+          <small class="numbers__footnote">по данным рейтинга «Агроинвестора»</small>
         </li>
       </ul>
 
     </section>
 
-    <section class="section  news  screen" id="news">
-      <h2 class="section__title  section__title--news">
-        <span>Новости</span>
-      </h2>
+    <section class="section  news animate">
 
       <div class="news__block">
+
+        <h2 class="section__title  section__title--news wow fadeInLeft">
+          <span>Новости</span>
+        </h2>
+
         <ul class="news__list">
           <li class="news__item">
             <div class="news__date">03
@@ -181,7 +211,8 @@
             </div>
             <a class="news__content" href="#">
               <h3 class="news__title">Итоги заседания Совета директоров ПАО «Группа Черкизово»</h3>
-              <p class="news__text">Москва, Россия – 15 декабря 2017 года – Группа «Черкизово» (LSE: CHE; MOEX: GCHE), крупнейший в России вертикально
+              <p class="news__text">Москва, Россия – 15 декабря 2017 года – Группа «Черкизово» (LSE: CHE; MOEX: GCHE),
+                крупнейший в России вертикально
                 интегрированный
               </p>
             </a>
@@ -193,7 +224,8 @@
             </div>
             <a class="news__content" href="#">
               <h3 class="news__title">В НИЦ «Черкизово» прошла «Школа фальсификатов кормов»</h3>
-              <p class="news__text">Москва, Россия – 27 июня 2017 года – Группа «Черкизово» (LSE: CHE; MOEX: GCHE), крупнейший в России вертикально...
+              <p class="news__text">Москва, Россия – 27 июня 2017 года – Группа «Черкизово» (LSE: CHE; MOEX: GCHE),
+                крупнейший в России вертикально...
               </p>
             </a>
           </li>
@@ -204,7 +236,8 @@
             </div>
             <a class="news__content" href="#">
               <h3 class="news__title">Сотрудники «Черкизово» получили премии Губернатора Пензенской области</h3>
-              <p class="news__text">Пенза – 13 декабря 2017 года. – Предприятия и сотрудники Группы «Черкизово» стали победителями соревнования в
+              <p class="news__text">Пенза – 13 декабря 2017 года. – Предприятия и сотрудники Группы «Черкизово» стали
+                победителями соревнования в
                 отрасли «Сельское хозяйство» в 2017</p>
             </a>
           </li>
@@ -235,41 +268,83 @@
       </div>
 
     </section>
+    <div class="directions-pos-wrap">
+<div class="directions-outer-wrap">
+    <div class="directions-overlay-slider swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+      </div>
+      <div class="swiper-pagination swiper-pagination--desktop"></div>
+      <a class="button  directions__button directions-content-button" href="">Подробнее</a>
+    </div>
 
-    <section class="directions  screen" id="directions">
+    <section class="directions swiper-container">
 
-      <div>
-        <section class="directions__item  directions__item--wo-partners  directions__item--agriculture  show">
+      <div class="swiper-wrapper">
+        <section class="directions__item directions__item--agriculture swiper-slide">
           <h2 class="section__title">
             <span>Направления</span>
           </h2>
-          <div class="directions__content">
-            <h3 class="directions__title">Растение<span class="dash  tablet-portrait-hidden  tablet-landscape-hidden  desktop-hidden">-</span>водство</h3>
-            <p class="directions__description">В 2012 году Группа «Черкизово» вышла в новый для себя сегмент - растениеводство. Сегодня компания обрабатывает
-              свыше 90 тысяч гектаров в Центральной России</p>
-            <a class="button  directions__button" href="#">Подробнее</a>
+          <div class="bg-block bg-block--mobile"></div>
+          <div class="directions__content directions__content--mobile">
+            <div class="content__wrapper">
+              <h3 class="directions__title">Растение<span class="dash  tablet-portrait-hidden  tablet-landscape-hidden  desktop-hidden">-</span>водство</h3>
+              <p class="directions__description">В 2012 году Группа «Черкизово» вышла в новый для себя сегмент -
+                растениеводство. Сегодня компания обрабатывает
+                свыше 90 тысяч гектаров в Центральной России</p>
+              <a class="button  directions__button" href="#">Подробнее</a>
+            </div>
           </div>
-				</section>
-				<section class="directions__item  directions__item--wo-partners  directions__item--feed-production">
-          <h2 class="section__title">
-            <span>Направления</span>
-          </h2>
-          <div class="directions__content">
-            <h3 class="directions__title">Кормо<span class="dash  tablet-landscape-hidden  desktop-hidden">-</span>производство</h3>
-            <p class="directions__description">В 2012 году Группа «Черкизово» вышла в новый для себя сегмент - растениеводство. Сегодня компания обрабатывает
-              свыше 90 тысяч гектаров в Центральной России</p>
-            <a class="button  directions__button" href="#">Подробнее</a>
+          <div class="directions__partners">
+            <div class="directions__partners-logo">
+              <picture class="brand__logo">
+                <source type="image/webp" srcset="img/content/chicken-kingdom@1x.webp 1x, img/content/chicken-kingdom@2x.webp 2x">
+                <img src="img/content/chicken-kingdom@1x.jpg" srcset="img/content/chicken-kingdom@2x.jpg 2x" alt="picture">
+              </picture>
+            </div>
           </div>
-				</section>
-				<section class="directions__item  directions__item--aviculture">
+        </section>
+        <section class="directions__item directions__item--feed-production swiper-slide">
           <h2 class="section__title">
             <span>Направления</span>
           </h2>
-          <div class="directions__content">
-            <h3 class="directions__title">Птицеводство</h3>
-            <p class="directions__description">Группа «Церкизово» - один из крупнейших производителей куриного мяса в России с долей рынка 10% и лидер по выпуску
-              брендированной продукции из птицы</p>
-            <a class="button  directions__button" href="#">Подробнее</a>
+          <div class="bg-block bg-block--mobile"></div>
+          <div class="directions__content directions__content--mobile">
+            <div class="content__wrapper">
+              <h3 class="directions__title">Кормо<span class="dash tablet-portrait-hidden desktop-hidden">-</span>производство</h3>
+              <p class="directions__description">В 2012 году Группа «Черкизово» вышла в новый для себя сегмент -
+                растениеводство. Сегодня компания обрабатывает
+                свыше 90 тысяч гектаров в Центральной России</p>
+              <a class="button  directions__button" href="#">Подробнее</a>
+            </div>
+          </div>
+          <div class="directions__partners">
+            <div class="directions__partners-logo">
+              <picture class="brand__logo">
+                <source type="image/webp" srcset="img/content/latifa@1x.webp 1x, img/content/latifa@2x.webp 2x">
+                <img src="img/content/latifa@1x.png" srcset="img/content/latifa@2x.png 2x" alt="picture">
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="directions__item directions__item--aviculture swiper-slide">
+          <h2 class="section__title">
+            <span>Направления</span>
+          </h2>
+          <div class="bg-block bg-block--mobile"></div>
+          <div class="directions__content directions__content--mobile">
+            <div class="content__wrapper">
+              <h3 class="directions__title">Птицеводство</h3>
+              <p class="directions__description">Группа «Черкизово» - один из крупнейших производителей куриного мяса в
+                России с долей рынка 10% и лидер по выпуску
+                брендированной продукции из птицы</p>
+              <a class="button  directions__button" href="#">Подробнее</a>
+            </div>
           </div>
 
           <div class="directions__partners">
@@ -310,16 +385,21 @@
               </picture>
             </div>
           </div>
-				</section>
-				<section class="directions__item  directions__item--turkey">
+        </section>
+        <section class="directions__item directions__item--turkey swiper-slide">
           <h2 class="section__title">
             <span>Направления</span>
           </h2>
-          <div class="directions__content">
-            <h3 class="directions__title">Индейка</h3>
-            <p class="directions__description">В 2012 году компания объявила о выходе в новый для себя сегмент мясного рынка - производство индейки. Компания
-              подписала соглашение о создании совместного предприятия с испанской Grupo Fuertes</p>
-            <a class="button  directions__button" href="#">Подробнее</a>
+          <div class="bg-block bg-block--mobile"></div>
+          <div class="directions__content directions__content--mobile">
+            <div class="content__wrapper">
+              <h3 class="directions__title">Индейка</h3>
+              <p class="directions__description">В 2012 году компания объявила о выходе в новый для себя сегмент
+                мясного
+                рынка - производство индейки. Компания
+                подписала соглашение о создании совместного предприятия с испанской Grupo Fuertes</p>
+              <a class="button  directions__button" href="#">Подробнее</a>
+            </div>
           </div>
           <div class="directions__partners">
             <div class="directions__partners-logo">
@@ -329,16 +409,21 @@
               </picture>
             </div>
           </div>
-				</section>
-        <section class="directions__item  directions__item--swine-breeding">
+        </section>
+        <section class="directions__item directions__item--swine-breeding swiper-slide">
           <h2 class="section__title">
             <span>Направления</span>
           </h2>
-          <div class="directions__content">
-            <h3 class="directions__title">Свиноводство</h3>
-            <p class="directions__description">Группа «Черкизово» входит в тройку крупнейших производителей свинины в России. Начав развивать свиноводство с нуля,
-              сегодня компания выращивает на своих пятнадцати свинокомплексах более полутора миллионов голов свиней в год.</p>
-            <a class="button  directions__button" href="#">Подробнее</a>
+          <div class="bg-block bg-block--mobile"></div>
+          <div class="directions__content directions__content--mobile">
+            <div class="content__wrapper">
+              <h3 class="directions__title">Свиноводство</h3>
+              <p class="directions__description">Группа «Черкизово» входит в тройку крупнейших производителей свинины в
+                России. Начав развивать свиноводство с нуля,
+                сегодня компания выращивает на своих пятнадцати свинокомплексах более полутора миллионов голов свиней в
+                год.</p>
+              <a class="button  directions__button" href="#">Подробнее</a>
+            </div>
           </div>
           <div class="directions__partners">
             <div class="directions__partners-logo">
@@ -348,16 +433,20 @@
               </picture>
             </div>
           </div>
-				</section>
-        <section class="directions__item  directions__item--meat-production">
+        </section>
+        <section class="directions__item directions__item--meat-production swiper-slide">
           <h2 class="section__title">
             <span>Направления</span>
           </h2>
-          <div class="directions__content">
-            <h3 class="directions__title">Мясо<span class="dash  tablet-portrait-hidden  tablet-landscape-hidden  desktop-hidden">-</span>переработка</h3>
-            <p class="directions__description">Уже более 40 лет потребители в нашей стране знаю и любят сосиски и колбасы Черкизовоского Мясоперерабатывающего
-              Завода (ЧМПЗ).</p>
-            <a class="button  directions__button" href="#">Подробнее</a>
+          <div class="bg-block bg-block--mobile"></div>
+          <div class="directions__content directions__content--mobile">
+            <div class="content__wrapper">
+              <h3 class="directions__title">Мясо<span class="dash  tablet-portrait-hidden  tablet-landscape-hidden  desktop-hidden">-</span>переработка</h3>
+              <p class="directions__description">Уже более 40 лет потребители в нашей стране знаю и любят сосиски и
+                колбасы Черкизовоского Мясоперерабатывающего
+                Завода (ЧМПЗ).</p>
+              <a class="button  directions__button" href="#">Подробнее</a>
+            </div>
           </div>
           <div class="directions__partners">
             <div class="directions__partners-logo">
@@ -379,30 +468,193 @@
               </picture>
             </div>
           </div>
-				</section>
+        </section>
       </div>
 
-      <div></div>
+      <div class="swiper-pagination swiper-pagination--mobile"></div>
 
     </section>
+    <div class="directions-bg-desktop swiper-container">
+      <div class="swiper-wrapper">
+        <div class="bg-block bg-block--agriculture bg-block--desktop swiper-slide"></div>
+        <div class="bg-block bg-block--feed-production bg-block--desktop swiper-slide"></div>
+        <div class="bg-block bg-block--aviculture bg-block--desktop swiper-slide"></div>
+        <div class="bg-block bg-block--turkey bg-block--desktop swiper-slide"></div>
+        <div class="bg-block bg-block--swine-breeding bg-block--desktop swiper-slide"></div>
+        <div class="bg-block bg-block--meat-production bg-block--desktop swiper-slide"></div>
+      </div>
+    </div>
+    <div class="directions-content-desktop swiper-container">
+      <div class="swiper-wrapper">
+        <div class="directions__content directions__content--agriculture directions__content--desktop swiper-slide" data-href="agriculture.html">
+          <div class="content__wrapper">
+            <h3 class="directions__title">Растениеводство</h3>
+            <p class="directions__description">В 2012 году Группа «Черкизово» вышла в новый для себя сегмент -
+              растениеводство. Сегодня компания обрабатывает
+              свыше 90 тысяч гектаров в Центральной России</p>
+          </div>
+        </div>
+        <div class="directions__content directions__content--feed-production directions__content--desktop swiper-slide" data-href="feed-production.html">
+          <div class="content__wrapper">
+            <h3 class="directions__title">Кормопроизводство</h3>
+            <p class="directions__description">В 2012 году Группа «Черкизово» вышла в новый для себя сегмент -
+              растениеводство. Сегодня компания обрабатывает
+              свыше 90 тысяч гектаров в Центральной России</p>
+          </div>
+        </div>
+        <div class="directions__content directions__content--aviculture directions__content--desktop swiper-slide" data-href="aviculture.html">
+          <div class="content__wrapper">
+            <h3 class="directions__title">Птицеводство</h3>
+            <p class="directions__description">Группа «Черкизово» - один из крупнейших производителей куриного мяса в
+              России с долей рынка 10% и лидер по выпуску
+              брендированной продукции из птицы</p>
+          </div>
+        </div>
+        <div class="directions__content directions__content--turkey directions__content--desktop swiper-slide" data-href="turkey.html">
+          <div class="content__wrapper">
+            <h3 class="directions__title">Индейка</h3>
+            <p class="directions__description">В 2012 году компания объявила о выходе в новый для себя сегмент мясного
+              рынка - производство индейки. Компания
+              подписала соглашение о создании совместного предприятия с испанской Grupo Fuertes</p>
+          </div>
+        </div>
+        <div class="directions__content directions__content--swine-breeding directions__content--desktop swiper-slide" data-href="swine-breeding.html">
+          <div class="content__wrapper">
+            <h3 class="directions__title">Свиноводство</h3>
+            <p class="directions__description">Группа «Черкизово» входит в тройку крупнейших производителей свинины в
+              России. Начав развивать свиноводство с нуля,
+              сегодня компания выращивает на своих пятнадцати свинокомплексах более полутора миллионов голов свиней в
+              год.</p>
+          </div>
+        </div>
+        <div class="directions__content directions__content--meat-production directions__content--desktop swiper-slide" data-href="meat-production.html">
+          <div class="content__wrapper">
+            <h3 class="directions__title">Мясо<span class="dash  tablet-portrait-hidden  tablet-landscape-hidden  desktop-hidden">-</span>переработка</h3>
+            <p class="directions__description">Уже более 40 лет потребители в нашей стране знаю и любят сосиски и
+              колбасы Черкизовоского Мясоперерабатывающего
+              Завода (ЧМПЗ).</p>
+          </div>
+        </div>
 
-    <section class="section  video  screen" id="video">
+      </div>
+
+    </div>
+    <div class="directions-partners-desktop">
+
+        <div class="directions__partners">
+          <div class="directions__partners-logo">
+              <picture class="brand__logo">
+                <source type="image/webp" srcset="img/content/chicken-kingdom@1x.webp 1x, img/content/chicken-kingdom@2x.webp 2x">
+                <img src="img/content/chicken-kingdom@1x.jpg" srcset="img/content/chicken-kingdom@2x.jpg 2x" alt="picture">
+              </picture>
+            </div>
+        </div>
+        <div class="directions__partners">
+            <div class="directions__partners-logo">
+                <picture class="brand__logo">
+                  <source type="image/webp" srcset="img/content/latifa@1x.webp 1x, img/content/latifa@2x.webp 2x">
+                  <img src="img/content/latifa@1x.png" srcset="img/content/latifa@2x.png 2x" alt="picture">
+                </picture>
+              </div>
+        </div>
+        <div class="directions__partners">
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/dajajti@1x.webp 1x, img/content/dajajti@2x.webp 2x">
+              <img src="img/content/dajajti@1x.png" srcset="img/content/dajajti@2x.png 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/latifa@1x.webp 1x, img/content/latifa@2x.webp 2x">
+              <img src="img/content/latifa@1x.png" srcset="img/content/latifa@2x.png 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/mosselprom@1x.webp 1x, img/content/mosselprom@2x.webp 2x">
+              <img src="img/content/mosselprom@1x.jpg" srcset="img/content/mosselprom@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/chicken-kingdom@1x.webp 1x, img/content/chicken-kingdom@2x.webp 2x">
+              <img src="img/content/chicken-kingdom@1x.jpg" srcset="img/content/chicken-kingdom@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/home-chicken@1x.webp 1x, img/content/home-chicken@2x.webp 2x">
+              <img src="img/content/home-chicken@1x.jpg" srcset="img/content/home-chicken@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/cherkizovo@1x.webp 1x, img/content/cherkizovo@2x.webp 2x">
+              <img src="img/content/cherkizovo@1x.jpg" srcset="img/content/cherkizovo@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+        </div>
+        <div class="directions__partners">
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/pava-pava@1x.webp 1x, img/content/pava-pava@2x.webp 2x">
+              <img src="img/content/pava-pava@1x.jpg" srcset="img/content/pava-pava@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+        </div>
+        <div class="directions__partners">
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/cherkizovo2.webp 1x, img/content/cherkizovo2@2x.webp 2x">
+              <img src="img/content/cherkizovo2.png" srcset="img/content/cherkizovo2@2x.png 2x" alt="picture">
+            </picture>
+          </div>
+        </div>
+        <div class="directions__partners">
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/taste-empire@1x.webp 1x, img/content/taste-empire@2x.webp 2x">
+              <img src="img/content/taste-empire@1x.jpg" srcset="img/content/taste-empire@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/meat-province@1x.webp 1x, img/content/meat-province@2x.webp 2x">
+              <img src="img/content/meat-province@1x.jpg" srcset="img/content/meat-province@2x.jpg 2x" alt="picture">
+            </picture>
+          </div>
+          <div class="directions__partners-logo">
+            <picture class="brand__logo">
+              <source type="image/webp" srcset="img/content/cherkizovo2.webp 1x, img/content/cherkizovo2@2x.webp 2x">
+              <img src="img/content/cherkizovo2.png" srcset="img/content/cherkizovo2@2x.png 2x" alt="picture">
+            </picture>
+          </div>
+        </div>
+
+    </div>
+</div>
+    </div>
+    <section class="section  video">
       <video class="video__video" autoplay loop>
-				<source src="#" type="video/mp4">
-				<p>
-					Ваш браузер не поддерживает воспроизведение видео. Скачайте
-					<a href="#">ролик</a>,
-					чтобы посмотреть его.
-				</p>
-			</video>
+        <source src="https://trello-attachments.s3.amazonaws.com/5a2c191037618ba24a6d825c/5b8d2471392d0a54ff792237/d9939cb82bc4a12fe6fa1e65d5e6be7e/Untitled_(1).webm"
+          type="video/webm">
+        <p>
+          Ваш браузер не поддерживает воспроизведение видео. Скачайте
+          <a href="https://trello-attachments.s3.amazonaws.com/5a2c191037618ba24a6d825c/5b8d2471392d0a54ff792237/d9939cb82bc4a12fe6fa1e65d5e6be7e/Untitled_(1).webm">ролик</a>,
+          чтобы посмотреть его.
+        </p>
+      </video>
       <h2 class="video__slogan">Долгая история.
         <br> Передовое качество
       </h2>
       <button class="video__play">Посмотреть видео</button>
+      <iframe class="video__player" id="video__player" src="https://player.vimeo.com/video/288962686?portrait=0&title=0&api=1"
+        width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </section>
 
-    <section class="section  career  screen" id="career">
-      <h2 class="section__title  section__title--career">
+    <section class="section  career animate">
+      <h2 class="section__title  section__title--career wow fadeInLeft">
         <span>Карьера</span>
       </h2>
       <ul class="career__menu">
@@ -428,10 +680,10 @@
     <nav class="footer__nav nav">
       <ul class="nav__list">
         <li class="nav__item  nav__item--site-map">
-          <a href="#" class="nav__link">Карта сайта</a>
+          <a href="index.html" class="nav__link">Карта сайта</a>
         </li>
         <li class="nav__item  nav__item--contacts">
-          <a href="#" class="nav__link">Контакты</a>
+          <a href="contacts.html" class="nav__link">Контакты</a>
         </li>
         <li class="nav__item  nav__item--fb">
           <a href="#" class="nav__link">Fb</a>
@@ -451,9 +703,12 @@
   <script src="js/libraries/ScrollMagic.min.js"></script>
   <script src="js/animated-block.js"></script>
 
-  <script src="js/libraries/scrollify.js"></script>
+  <script src="js/libraries/jquery.scrollstop.js"></script>
+  <script src="js/libraries/wow.min.js"></script>
   <script src="js/libraries/swiper.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="js/video.js"></script>
 </body>
 
 </html>

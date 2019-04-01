@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="64" viewBox="0 0 148 64">
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(13 13)">
+            <rect width="37" height="50" fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="4.4"/>
+            <path stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.048 36.113h20.595M7 16h24v14H7zM7.127 42.204h6.225M24.811 42.204H21"/>
+            <ellipse cx="6.382" cy="6.37" fill="#FECD46" rx="2.382" ry="2.37"/>
+        </g>
+        <g transform="translate(7 7)">
+            <rect width="37" height="50" fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="4.4"/>
+            <path stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.048 36.113h20.595M7 16h24v14H7zM7.127 42.204h6.225M24.811 42.204H21"/>
+            <ellipse cx="6.382" cy="6.37" fill="#FECD46" rx="2.382" ry="2.37"/>
+        </g>
+        <g transform="translate(1 1)">
+            <rect width="37" height="50" fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="4.4"/>
+            <path stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.048 36.113h20.595M7 16h21v13H7zM7.127 42.204h6.225M24.811 42.204H21"/>
+            <ellipse cx="6.382" cy="6.37" fill="#FECD46" rx="2.382" ry="2.37"/>
+        </g>
+        <g stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M91.89 32.615A16.057 16.057 0 0 0 84.85 31a16.09 16.09 0 0 0-12.55 6"/>
+            <path d="M90.482 26.003l3.59 7.413-6.99 4.34"/>
+        </g>
+        <path fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M128.008 8L110 18.522v19.956L128.008 49l18.008-10.522V18.522z"/>
+        <path stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M131.363 21h-5.239L123 24.855l2.9 3.113h4.434L133 31.724 130.345 35h-6.206"/>
+    </g>
+</svg>

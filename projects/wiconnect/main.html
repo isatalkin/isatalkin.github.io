@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main page</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <video autoplay loop muted class="bgvideo" id="bgvideo">
+    <source src="video/main-background.mp4" type="video/mp4"></source>
+</video>
+
+  <div style="height: 0; width: 0; position: absolute; visibility: hidden;" class="symbols">
+    <!-- inject:svg -->
+    <!-- endinject -->
+  </div>
+
+  <header class="header  header--fixed  main-page__header main-page__header--bg-white">
+    <button class="header__menu-toggle" aria-label="menu toggle">
+        <span class="header__burger header-color"></span>
+      </button>
+      <a class="header__logo-link" href="main.html">
+        <img id="logo_colored" class="header__logo  header__logo--colored" src="img/logo-winconnect.svg" width="120" height="28" alt="Winconnect logotype">
+        <img id="logo_white" class="header__logo  header__logo--white" src="img/logo-winconnect_white.svg" width="120" height="28" alt="Winconnect logotype">
+        <img id="logo_blue" class="header__logo  header__logo--blue" src="img/logo-winconnect_blue.svg" width="120" height="28" alt="Winconnect logotype">
+      </a>
+    <ul class="header__menu  main-menu  main-menu--header header-color">
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="about-us.html">About Us</a>
+      </li>
+      <li class="main-menu__item">
+        <!-- Active element to show submenu -->
+        <a class="main-menu__link  main-menu__link--offer" href="#">Offerings</a>
+        <a class="main-menu__link  main-menu__link--offer-mobile" href="#">Offerings</a>
+
+        <!-- Offerings submenu -->
+        <ul class="main-menu__submenu  main-menu__submenu--offerings  main-menu  main-menu--header header-color">
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="offerings-wifi.html">Wi-Fi Access</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="offerings-based-monetization.html">Ad Based Monetization</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="offerings-content-portal.html">Content Portal</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="offerings-data-monetization.html">Data Monetization</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="offerings-audience-extension.html">Audience Extension</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub  main-menu__link--active">Enhanced Portal with App / SDK</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-menu__item  main-menu__item--serve">
+
+        <!-- Active element to show submenu -->
+        <a class="main-menu__link  main-menu__link--serve" href="#">Who We Serve</a>
+        <a class="main-menu__link  main-menu__link--serve-mobile" href="services-venue-owners.html">Who We Serve</a>
+
+        <!-- Services submenu -->
+        <ul class="main-menu__submenu  main-menu__submenu--services  main-menu  main-menu--header header-color">
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="services-venue-owners.html">Venue Owners</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="services-managed-providers.html">Managed Service Providers</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="services-carriers.html">Carriers &amp; Network Operators</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link  main-menu__link--sub" href="services-advertisers.html">Advertisers</a>
+          </li>
+        </ul>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="careers.html">Careers</a>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="contact-us.html">Contact Us</a>
+      </li>
+    </ul>
+    <a class="header__login  button" href="login.html">Log in</a>
+  </header>
+
+  <main class="main">
+    <h1 class="visually-hidden">MaaS - Your Monetization partner</h1>
+
+    <section class="monetization">
+      <h2 class="monetization__title">Your Monetization partner</h2>
+      <p class="monetization__text">WiConnect is a Monetization as a Service (MaaS) provider that maximizes revenue from public Wi-Fi networks</p>
+      <a class="monetization__btn" href="#yellow_block">What's MaaS?</a>
+      <div class="monetization__yellow-circle"></div>
+    </section>
+
+    <section class="yellow-block" id="yellow_block">
+      <div class="yellow-block__white-circle"></div>
+      <div class="yellow-block__blue-circle">
+        <h2 class="yellow-block__title">WiConenct’s MaaS platform is flexible – we can tailor revenue generating solutions ideal for your Wi-Fi environment</h2>
+      </div>
+    </section>
+
+    <section id="platform_features" class="platform">
+
+      <div class="platform__feature  platform__feature--wf">
+        <h2 class="platform__title">Wi-Fi Access</h2>
+        <p class="platform__text">Financially benefit from providing access to roaming networks, MVNOs and Wireless Carriers who desire to improve quality and capacity within public venues.</p>
+        <a class="platform__link" href="offerings-wifi.html">Learn more</a>
+      </div>
+      <div class="platform__feature  platform__feature--abm">
+        <h2 class="platform__title">Ad-Based Monetization</h2>
+        <p class="platform__text">Generate revenue from advertising shown to Wi-Fi users with unique ad formats and capabilities, optimized for the highest possible ROI.</p>
+        <a class="platform__link" href="offerings-based-monetization.html">Learn more</a>
+      </div>
+      <div class="platform__feature  platform__feature--da">
+        <h2 class="platform__title">Data Monetization</h2>
+        <p class="platform__text">Generate revenue based on insights gathered from digital online and offline behavior.</p>
+        <a class="platform__link" href="offerings-data-monetization.html">Learn more</a>
+      </div>
+      <div class="platform__feature  platform__feature--ae">
+        <h2 class="platform__title">Audience Extension</h2>
+        <p class="platform__text">Generate revenue from devices that use your Wi-Fi network when they’re not on your captive portal or even within your venue.</p>
+        <a class="platform__link" href="offerings-audience-extension.html">Learn more</a>
+      </div>
+      <div class="platform__feature  platform__feature--cp">
+        <h2 class="platform__title">Content Portal</h2>
+        <p class="platform__text">Offer users fully customized content portals, personalized by audience &amp; venue type, that extend your inventory to increase ad revenue</p>
+        <a class="platform__link" href="offerings-content-portal.html">Learn more</a>
+      </div>
+      <div class="platform__feature  platform__feature--app">
+        <h2 class="platform__title">Enhanced Portal with App/SDK</h2>
+        <p class="platform__text">Provide predictable access to Wi-Fi networks with App/SDK connection management while gaining additional audience insights</p>
+        <a class="platform__link" href="offerings-enhanced-portal.html">Learn more</a>
+      </div>
+    </section>
+
+    <section id="sub_menu_container" class="main-page  main-page__menu">
+      <div class="sub-menu__controls">
+        <button id="horizon_prev_btn" type="button"></button>
+        <button id="horizon_next_btn" type="button"></button>
+      </div>
+      <div id="sub_menu" class="sub-menu">
+
+        <div class="sub-menu__item">
+          <h2>WiConnect works with a wide variety of clients and partners to deliver the most flexible, value-based Wi-Fi monetization platform.</h2>
+        </div>
+
+        <div class="sub-menu__item">
+          <h2>Venue Owners</h2>
+          <div>
+            <p>From cities to hotels, transit systems, stadiums, malls, cafes and other highly populated venues, free Wi-Fi is increasingly in demand.</p>
+            <p>We provide venue owners and managers monetization services while optimizing your end user experience.</p>
+          </div>
+          <a href="">See how</a>
+        </div>
+
+        <div class="sub-menu__item">
+          <h2>Managed Service Providers</h2>
+          <p>We partner with Wi-Fi Managed Service Providers (MSPs) that benefit greatly from monetization options for their clients’ deployed Wi-Fi networks.</p>
+          <a href="">See how</a>
+        </div>
+
+        <div class="sub-menu__item">
+          <h2>Carriers, Cable Companies, and Network Operators</h2>
+          <p>We offer Wireless Carriers, MVNOs and roaming network partners an ever expanding portfolio of vetted, quality Wi-Fi networks, as well as an easy onboarding process to enable you to expand coverage and/or increase capacity within venues.</p>
+          <a href="">See how</a>
+        </div>
+
+        <div class="sub-menu__item">
+          <h2>Advertisers</h2>
+          <p>We enable advertisers to maximize ROI by purchasing ad inventory associated with Wi-Fi networks with rich targeting capabilities, free of fraud.</p>
+          <a href="">See how</a>
+        </div>
+
+        <div class="sub-menu__item">
+          <h2>Learn more about the problems we solve</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="sub_nav_container" class="main-page  main-page__sub-nav">
+      <ul>
+        <li><a id="submenu_venue" href="#">Venue Owners</a></li>
+        <li><a id="submenu_servie" href="#">Service Providers</a></li>
+        <li><a id="submenu_carriers" href="#">Carriers</a></li>
+        <li><a id="submenu_advertisers" href="#">Advertisers</a></li>
+      </ul>
+    </section>
+    <section class="main-page  main-page__join-us">
+      <h2>Join us</h2>
+      <p>WiConnect is expanding and seeking talented innovators. We have a fun, challenging environment where each person is valued and treated as part owner of the company.</p>
+      <p>If you’rea self-starter looking for a collaborative team environment in a young, fully-funded company within a growing, exciting industry, we’d love to hear from you.</p>
+      <a href="#">See what we have to offer</a>
+    </section>
+    <section class="main-page  main-page__subscribe">
+      <h2>Be the first to get our news!</h2>
+      <p>Periodically, we’ll share the latest features and hottest news on WiConnect. No spam of course.</p>
+
+      <section class="main-page__send-message">
+        <form class="form" action="#">
+          <input class="form__input" name="email" type="email" placeholder="Enter your email" required>
+          <button class="form__submit" type="submit">Subscribe</button>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__inner">
+      <ul class="footer__menu  main-menu  main-menu--footer">
+        <li class="main-menu__item"><a class="main-menu__link" href="about-us.html">About Us</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="offerings-wifi.html">Offerings</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="services-venue-owners.html">Who We Serve</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="careers.html">Careers</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="contact-us.html">Contact Us</a></li>
+      </ul>
+      <ul class="footer__social  social">
+        <li class="social__item"><a class="social__link  social__link--facebook" href="#" aria-label="we are on Facebook"></a></li>
+        <li class="social__item"><a class="social__link  social__link--linkedin" href="#" aria-label="we are in linkedIn"></a></li>
+        <li class="social__item"><a class="social__link  social__link--twitter" href="#" aria-label="we are in Twitter"></a></li>
+      </ul>
+      <p class="footer__copyright">Wiconnect © 2018</p>
+    </div>
+  </footer>
+
+  <div class="popup  popup--login  popup--closed">
+    <div class="login">
+      <button class="login__close" type="button" aria-label="close popup"></button>
+      <h2 class="login__title">Log In to Wiconnect Partner Portal</h2>
+      <form class="login__form" method="post" action="#">
+        <div class="login__input  input-field">
+          <label class="visually-hidden" for="email">Your e-mail</label>
+          <!--for error condition use class input-field__input&#45;&#45;error  -->
+          <input class="input-field__input" type="email" id="email" autocomplete="off" placeholder="E-mail" required>
+          <span class="input-field__decor"></span>
+          <b class="input-field__helper">Something went wrong</b>
+        </div>
+        <div class="login__input  input-field">
+          <label class="visually-hidden" for="password">Your password</label>
+          <input class="input-field__input" type="password" id="password" autocomplete="off" placeholder="Password" required>
+          <span class="input-field__decor"></span>
+          <b class="input-field__helper">Something went wrong</b>
+          <a class="input-field__link" href="#">Forgot?</a>
+        </div>
+        <button type="submit" class="login__submit  button  button--yellow">Log in</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/array-from-ie.min.js"></script>
+  <script src="js/throttle.min.js"></script>
+  <script src="js/main-slides.min.js"></script>
+  <!--<script src="js/main.min.js"></script>-->
+  <script src="js/util.min.js"></script>
+  <script src="js/menu.min.js"></script>
+  <script src="js/submenu.min.js"></script>
+  <!--<script src="js/login.min.js"></script>-->
+  <script src="js/main-horizon.min.js"></script>
+</body>
+
+</html>

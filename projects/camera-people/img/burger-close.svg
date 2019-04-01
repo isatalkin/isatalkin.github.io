@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="40px" viewBox="0 0 39 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-1503.000000, -74.000000)" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(1503.000000, 74.000000)">
+                <path d="M19.9464517,40 C30.9625727,40 40.8447061,29.6379612 38.7066004,20 C36.5684947,10.3620388 30.9625727,0 19.9464517,0 C8.93033059,0 0,8.954305 0,20 C0,31.045695 8.93033059,40 19.9464517,40 Z" id="Oval" fill="#5A06FF"></path>
+                <g id="Group" transform="translate(10.000000, 10.000000)" fill="#FFFFFF">
+                    <g id="Group-2">
+                        <rect id="Rectangle" transform="translate(10.000000, 10.500000) rotate(45.000000) translate(-10.000000, -10.500000) " x="-2" y="9" width="24" height="3"></rect>
+                        <rect id="Rectangle" transform="translate(10.000000, 10.500000) rotate(-45.000000) translate(-10.000000, -10.500000) " x="-2" y="9" width="24" height="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

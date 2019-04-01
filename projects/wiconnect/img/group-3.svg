@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="268" height="78" viewBox="0 0 268 78">
+    <defs>
+        <rect id="b" width="250" height="60" rx="30"/>
+        <filter id="a" width="114%" height="158.3%" x="-7%" y="-15.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-586-679H854v800H-586z"/>
+        <g transform="translate(9 1)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <text fill="#2C334D" font-family=".SFNSDisplay, .SF NS Display" font-size="20" transform="translate(9 1)">
+            <tspan x="63.186" y="34">What’s MaaS?</tspan>
+        </text>
+    </g>
+</svg>

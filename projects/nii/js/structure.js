@@ -1,0 +1,1 @@
+$(".js-expandable button").on("click",function(s){var e=$(this),t=$(this).closest(".js-expandable").children(".structure__sub-list");t.hasClass("open")?($(this).closest(".js-expandable").children(".structure__sub-list").removeClass("open"),e.removeClass("structure__item--active")):(t.addClass("open"),e.addClass("structure__item--active"))});

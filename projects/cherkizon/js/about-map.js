@@ -5,7 +5,9 @@
   var maps = document.querySelectorAll('.about-map');
   var cards = document.querySelectorAll('.map-card');
   var mapPin = document.querySelector('.map-pin');
+  var mapPinReverted = mapPin.querySelector('use');
   var mapPinClose = document.querySelectorAll('map-pin__button');
+  var mapDescription = document.querySelector('.map__description');
   var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   var parts;
 
@@ -41,9 +43,18 @@
         }
 
         cards[i].style.top = rect.top - map.getBoundingClientRect().top - cards[i].getBoundingClientRect().height - 50 + 'px';
+
         mapPin.classList.add('map-pin--shown');
         mapPin.style.left = rect.left + mapPin.getBoundingClientRect().width / 4 + 'px';
         mapPin.style.top = rect.top - map.getBoundingClientRect().top - 75 + 'px';
+
+        if (screenWidth > 768 && cards[i].getBoundingClientRect().left < mapDescription.getBoundingClientRect().right && cards[i].getBoundingClientRect().top < mapDescription.getBoundingClientRect().bottom || cards[i].getBoundingClientRect().top < map.getBoundingClientRect().top) {
+          cards[i].style.top = rect.top - map.getBoundingClientRect().top + cards[i].getBoundingClientRect().height / 2 - 45 + 'px';
+          mapPin.style.top = rect.top - map.getBoundingClientRect().top + 75 + 'px';
+          mapPin.querySelector('use').setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg-sprite/sprite.svg#map-pin-reverted');
+        } else {
+          mapPin.querySelector('use').setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg-sprite/sprite.svg#map-pin');
+        }
       }
     });
   };

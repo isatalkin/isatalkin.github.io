@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="25" viewBox="0 0 76 25">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#212121" font-family="Gerbera-Medium, Gerbera" font-size="16" font-weight="400">
+            <tspan x="0" y="12">Контакты</tspan>
+        </text>
+        <path stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M2 22.406h36c8.858 0 15.42 1.337 29.693 0 5.781-.541 7.588-.541 5.42 0"/>
+    </g>
+</svg>

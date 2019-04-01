@@ -1,0 +1,1 @@
+$(function(){ymaps.ready(function(){var e=new ymaps.Map("map",{center:[59.965266,30.292631],zoom:17,controls:[]},{suppressMapOpenBlock:!0});a.width()<769&&(e.behaviors.disable("multiTouch"),e.behaviors.disable("drag"));myPlacemark=new ymaps.Placemark([59.965266,30.292631],{}),e.geoObjects.add(myPlacemark)});var a=$(window)});

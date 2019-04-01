@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera People</title>
+  <link rel="preload" href="fonts/Gerbera.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gerbera-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gerbera-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"> -->
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement('picture');
+  </script>
+  <script src="js/libraries/picturefill.min.js" async=""></script>
+</head>
+
+<body>
+
+  <div class="global-wrapper">
+
+    <!-- //= templates/header.html -->
+    <section class="filter">
+      <h1 class="visually-hidden">Фильтры</h1>
+      <a class="filter__link-back" href="#">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="33px" height="16px" viewBox="0 0 33 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+          <title>Group 20</title>
+          <desc>Created with Sketch.</desc>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Artboard-Copy" transform="translate(-1190.000000, -161.000000)" fill-rule="nonzero">
+              <g id="Group-20" transform="translate(1192.000000, 155.000000)">
+                <g id="Group-19">
+                  <rect id="Rectangle-Copy-18" x="4" y="2" width="24" height="24"></rect>
+                  <path d="M5,4.5 C10.0982316,8.8742546 13.7648982,12.2075879 16,14.5 C18.2351018,16.7924121 21.0684351,20.1257454 24.5,24.5"
+                    id="Line" stroke="#FF02EC" stroke-width="3" stroke-linecap="round" transform="translate(14.750000, 14.500000) rotate(-44.000000) translate(-14.750000, -14.500000) "></path>
+                  <path d="M7.31799316,8 C5.60699636,8.90446554 4.29266531,9.71720968 3.375,10.4382324 C2.45733469,11.1592552 1.33233469,12.346511 0,14"
+                    id="Line-2" stroke="#FF02EC" stroke-width="3" stroke-linecap="round"></path>
+                  <path d="M7.31799316,14 C5.60699636,14.9044655 4.29266531,15.7172097 3.375,16.4382324 C2.45733469,17.1592552 1.33233469,18.346511 0,20"
+                    id="Line-2-Copy" stroke="#FF02EC" stroke-width="3" stroke-linecap="round" transform="translate(3.658997, 17.000000) scale(-1, 1) translate(-3.658997, -17.000000) "></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <span class="filter__link-back filter__link-back--text">Фильтры</span>
+      </a>
+      <form class="filter-form" method="post" action="#">
+        <fieldset class="filter-form__field filter-form__field--checkbox">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Модель</span></legend>
+          <div class="filter-form__field-wrapper filter-form__field-wrapper--hide filter-form__field-wrapper--checkbox">
+              <div class="filter-form__input-wrapper filter-form__input-wrapper--all">
+                  <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="all" id="checkbox-1">
+                  <label class="filter-form__label" for="checkbox-1">
+                    <span class="">Выбрать все</span>
+                  </label>
+                </div>
+            <div class="filter-form__checkbox">
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Aputure" id="checkbox-2">
+              <label class="filter-form__label" for="checkbox-2">
+                <span class="">Aputure</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Canon" id="checkbox-3"
+                checked="">
+              <label class="filter-form__label" for="checkbox-3">
+                <span class="">Canon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Nikon" id="checkbox-4"
+                checked="">
+              <label class="filter-form__label" for="checkbox-4">
+                <span class="">Nikon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Panasonic" id="checkbox-5">
+              <label class="filter-form__label" for="checkbox-5">
+                <span class="">Panasonic</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Pixel" id="checkbox-6">
+              <label class="filter-form__label" for="checkbox-6">
+                <span class="">Pixel</span>
+              </label>
+            </div>
+            </div>
+            <div class="filter-form__checkbox">
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Aputure" id="checkbox-8">
+              <label class="filter-form__label" for="checkbox-8">
+                <span class="">Aputure</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Canon" id="checkbox-9"
+                checked="">
+              <label class="filter-form__label" for="checkbox-9">
+                <span class="">Canon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Nikon" id="checkbox-10"
+                checked="">
+              <label class="filter-form__label" for="checkbox-10">
+                <span class="">Nikon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Panasonic" id="checkbox-11">
+              <label class="filter-form__label" for="checkbox-11">
+                <span class="">Panasonic</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Pixel" id="checkbox-12">
+              <label class="filter-form__label" for="checkbox-12">
+                <span class="">Pixel</span>
+              </label>
+            </div>
+            </div>
+            <div class="filter-form__checkbox">
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Aputure" id="checkbox-14">
+              <label class="filter-form__label" for="checkbox-14">
+                <span class="">Aputure</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Canon" id="checkbox-15"
+                checked="">
+              <label class="filter-form__label" for="checkbox-15">
+                <span class="">Canon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Nikon" id="checkbox-16"
+                checked="">
+              <label class="filter-form__label" for="checkbox-16">
+                <span class="">Nikon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Panasonic" id="checkbox-17">
+              <label class="filter-form__label" for="checkbox-17">
+                <span class="">Panasonic</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Pixel" id="checkbox-18">
+              <label class="filter-form__label" for="checkbox-18">
+                <span class="">Pixel</span>
+              </label>
+            </div>
+            </div>
+            <div class="filter-form__checkbox">
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Aputure" id="checkbox-20">
+              <label class="filter-form__label" for="checkbox-20">
+                <span class="">Aputure</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Canon" id="checkbox-21"
+                checked="">
+              <label class="filter-form__label" for="checkbox-21">
+                <span class="">Canon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Nikon" id="checkbox-22"
+                checked="">
+              <label class="filter-form__label" for="checkbox-22">
+                <span class="">Nikon</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Panasonic" id="checkbox-23">
+              <label class="filter-form__label" for="checkbox-23">
+                <span class="">Panasonic</span>
+              </label>
+            </div>
+            <div class="filter-form__input-wrapper">
+              <input class="filter-form__input visually-hidden" type="checkbox" name="model" value="Pixel" id="checkbox-24">
+              <label class="filter-form__label" for="checkbox-24">
+                <span class="">Pixel</span>
+              </label>
+            </div>
+          </div>
+          </div>
+
+          <p class="filter-form__show filter-form__show--hide">Показать еще</p>
+        </fieldset>
+        <fieldset class="filter-form__field">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Цена за смену</span></legend>
+          <div class="filter-form__field-wrapper filter-form__field-wrapper--price">
+            <input class="filter-form__input filter-form__input--price" type="text" name="price-start" value="" id="start"
+              placeholder="От">
+            <span> - </span>
+            <input class="filter-form__input filter-form__input--price" type="text" name="final-price" value="" id="final"
+              placeholder="До">
+        </fieldset>
+        <fieldset class="filter-form__field">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Тип сенсора</span></legend>
+          <div class="filter-form__select-container">
+            <select class="filter-form__type" name="sorting">
+              <option value="1" selected="">Все</option>
+              <option value="2">тип 1</option>
+              <option value="3">тип 2</option>
+              <option value="4">тип 3</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset class="filter-form__field filter-form__field--hidden">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Разрешение</span></legend>
+          <div class="filter-form__input-wrapper">
+            test
+          </div>
+        </fieldset>
+        <fieldset class="filter-form__field filter-form__field--hidden">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Байонет</span></legend>
+          <div class="filter-form__input-wrapper">
+            test
+          </div>
+        </fieldset>
+        <fieldset class="filter-form__field filter-form__field--hidden">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Совместимость
+              с Full Frame</span></legend>
+          <div class="filter-form__input-wrapper">
+            test
+          </div>
+        </fieldset>
+        <fieldset class="filter-form__field filter-form__field--hidden">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Slow motion в
+              Full HD</span></legend>
+          <div class="filter-form__input-wrapper">
+            test
+          </div>
+        </fieldset>
+        <fieldset class="filter-form__field filter-form__field--hidden">
+          <legend class="filter-form__legend"><span class="filter-form__legend filter-form__legend--text">Slow motion в
+              4K</span></legend>
+          <div class="filter-form__input-wrapper">
+            test
+          </div>
+        </fieldset>
+    </section>
+  </div>
+
+  <!-- Тут подключаются обязательные для всего сайта скрипты -->
+  <script src="js/ie-support.min.js"></script>
+  <script src="js/libraries/svg4everybody.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/menu.js"></script>
+  <!-- Скрипты для отдельной страницы подключайте сюда -->
+  <script src="#"></script>
+  <!-- <script src="js/filters.js"></script> -->
+  <script src="js/filters.min.js"></script>
+</body>
+
+</html>

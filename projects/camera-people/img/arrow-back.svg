@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="16px" viewBox="0 0 33 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1190.000000, -161.000000)" fill-rule="nonzero">
+            <g id="Group-20" transform="translate(1192.000000, 155.000000)">
+                <g id="Group-19">
+                    <rect id="Rectangle-Copy-18" x="4" y="2" width="24" height="24"></rect>
+                    <path d="M5,4.5 C10.0982316,8.8742546 13.7648982,12.2075879 16,14.5 C18.2351018,16.7924121 21.0684351,20.1257454 24.5,24.5" id="Line" stroke="#FF02EC" stroke-width="3" stroke-linecap="round" transform="translate(14.750000, 14.500000) rotate(-44.000000) translate(-14.750000, -14.500000) "></path>
+                    <path d="M7.31799316,8 C5.60699636,8.90446554 4.29266531,9.71720968 3.375,10.4382324 C2.45733469,11.1592552 1.33233469,12.346511 0,14" id="Line-2" stroke="#FF02EC" stroke-width="3" stroke-linecap="round"></path>
+                    <path d="M7.31799316,14 C5.60699636,14.9044655 4.29266531,15.7172097 3.375,16.4382324 C2.45733469,17.1592552 1.33233469,18.346511 0,20" id="Line-2-Copy" stroke="#FF02EC" stroke-width="3" stroke-linecap="round" transform="translate(3.658997, 17.000000) scale(-1, 1) translate(-3.658997, -17.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

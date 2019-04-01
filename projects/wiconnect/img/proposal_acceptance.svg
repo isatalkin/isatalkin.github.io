@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="145px" viewBox="0 0 145 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>C231B64C-5DEC-4876-98ED-A33B28AA6B09</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wiconnect-services-1.-venue-owners" transform="translate(-648.000000, -2799.000000)">
+            <g id="Proposal-Acceptance" transform="translate(648.000000, 2799.000000)">
+                <circle id="Oval-3" fill="#FECD46" fill-rule="nonzero" cx="72.5" cy="72.5" r="72.5"></circle>
+                <g id="Group-11" transform="translate(40.000000, 34.000000)" stroke="#2C334D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <g id="Group-6">
+                        <path d="M15.7646484,0 L55,0 C57.209139,-4.05812251e-16 59,1.790861 59,4 L59,66 C59,68.209139 57.209139,70 55,70 L4,70 C1.790861,70 2.705415e-16,68.209139 0,66 L0,15.0263672 L15.7646484,0 Z" id="Rectangle-17"></path>
+                        <g id="Group-5" transform="translate(8.000000, 7.000000)">
+                            <g id="Group-10">
+                                <path d="M0,19.25 L42,19.25" id="Line-2"></path>
+                                <polygon id="Fill-1" points="37 0 32 2.82294262 32 5.5 32 8.17714754 37 11 42 8.17714754 42 2.82294262"></polygon>
+                                <path d="M0,27 L33,27" id="Line-2"></path>
+                                <path d="M0,34.25 L42,34.25" id="Line-2"></path>
+                                <path d="M0,42 L26,42" id="Line-2"></path>
+                                <path d="M0,49 L26,49" id="Line-2"></path>
+                            </g>
+                        </g>
+                        <path d="M0,16 L11,16 C13.7614237,16 16,13.7614237 16,11 L16,0.774414062" id="Path-2"></path>
+                    </g>
+                    <g id="Group-9" transform="translate(55.762664, 66.390398) rotate(-41.000000) translate(-55.762664, -66.390398) translate(52.262664, 46.390398)">
+                        <rect id="Rectangle-20" fill="#FECD46" x="0" y="11.0903254" width="6.38129287" height="28.3613017" rx="3.19064644"></rect>
+                        <path d="M0,13.3946812 C0,13.3946812 1.06470284,8.92978745 3.19410851,1.8189894e-12 L6.38821702,13.3946812" id="Path-9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

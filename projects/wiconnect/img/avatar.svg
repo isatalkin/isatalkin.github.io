@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ACA03467-D32F-40AA-9403-69F5F4B57759</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wiconnect-profile" transform="translate(-1220.000000, -19.000000)">
+            <g id="login-w" transform="translate(1220.000000, 19.000000)">
+                <g id="avatar">
+                    <rect id="Rectangle-15" stroke="#2C334D" fill="#FFFFFF" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
+                    <g id="Group" opacity="0.149999991" transform="translate(16.000000, 13.000000)" fill="#2C334D" fill-rule="nonzero">
+                        <circle id="Oval-4" cx="4" cy="3" r="3"></circle>
+                        <path d="M4,13.9803727 C6.66666667,14.1257695 8,13.4633537 8,11.9931255 C8,9.78778319 6.209139,8 4,8 C1.790861,8 0,9.78778319 0,11.9931255 C0,13.4633537 1.33333333,14.1257695 4,13.9803727 Z" id="Oval-4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

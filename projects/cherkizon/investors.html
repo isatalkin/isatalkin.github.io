@@ -13,10 +13,10 @@
   <script src="js/libraries/picturefill.min.js" async=""></script>
 </head>
 <body>
-  <main>
+  <main class="investors-main">
     <aside class="sidebar" id="sidebar">
     
-        <a class="sidebar__logo" href="#">
+        <a class="sidebar__logo" href="main.html">
           <img src="img/sidebar-logo.svg" alt="Черкизово">
         </a>
         <div class="sidebar__container">
@@ -26,10 +26,10 @@
             <nav class="sidebar__nav">
               <ul class="sidebar__list">
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">О компании</a>
+                  <a class="sidebar__link" href="about.html">О компании</a>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Бренды</a>
+                  <a class="sidebar__link" href="brands.html">Бренды</a>
                   <ul class="sidebar__submenu">
                     <li class="sidebar__submenu-item">
                       <a class="sidebar__submenu-link" href="#">Корпоративная</a>
@@ -64,42 +64,50 @@
                   </ul>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Инвесторам</a>
+                  <a class="sidebar__link" href="investors.html">Инвесторам</a>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Пресс-центр</a>
+                  <a class="sidebar__link" href="press.html">Пресс-центр</a>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Партнерам</a>
+                  <a class="sidebar__link" href="partners.html">Партнерам</a>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Карьера</a>
+                  <a class="sidebar__link" href="career.html">Карьера</a>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Закупки</a>
+                  <a class="sidebar__link" href="sales.html">Закупки</a>
                 </li>
                 <li class="sidebar__item">
-                  <a href="#" class="sidebar__link">Контакты</a>
+                  <a class="sidebar__link" href="contacts.html">Контакты</a>
                 </li>
               </ul>
             </nav>
     
+            <div class="search__section  sidebar__search">
+              <h2 class="search__title">Поиск</h2>
+              <form class="search__form" action="search-result.html">
+                <input class="search__input" type="text" name="" id="" placeholder="Например «Путин»" required>
+                <button class="search__submit  button" type="submit">Искать</button>
+              </form>
+            </div>
+    
             <ul class="controls">
               <li class="controls__item">
-                <a href="#" class="controls__language-select">Eng</a>
+                <a class="controls__language-select" href="#">Eng</a>
               </li>
               <li class="controls__item">
-                <a href="#" class="controls__language-select">Rus</a>
+                <a class="controls__language-select" href="#">Rus</a>
               </li>
               <li class="controls__item">
-                <a href="#" class="controls__social" aria-label="Facebook">
+                <a class="controls__social" href="#" aria-label="Facebook">
                   <svg width="9" height="21" aria-hidden="true">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svg-sprite/sprite.svg#fb"></use>
                   </svg>
                 </a>
               </li>
               <li class="controls__item">
-                <a href="#" class="controls__search" aria-label="Поиск">
+                <a class="controls__search" href="search.html" aria-label="Поиск">
                   <svg width="22" height="22" aria-hidden="true">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svg-sprite/sprite.svg#search"></use>
                   </svg>
@@ -346,10 +354,10 @@
     <nav class="footer__nav nav">
       <ul class="nav__list">
         <li class="nav__item  nav__item--site-map">
-          <a href="#" class="nav__link">Карта сайта</a>
+          <a href="index.html" class="nav__link">Карта сайта</a>
         </li>
         <li class="nav__item  nav__item--contacts">
-          <a href="#" class="nav__link">Контакты</a>
+          <a href="contacts.html" class="nav__link">Контакты</a>
         </li>
         <li class="nav__item  nav__item--fb">
           <a href="#" class="nav__link">Fb</a>

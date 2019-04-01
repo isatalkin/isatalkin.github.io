@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="61" viewBox="0 0 143 61">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 -24)">
+        <rect width="41.502" height="34.837" y="38.024" fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="4.4"/>
+        <ellipse cx="6.382" cy="44.37" fill="#FECD46" rx="2.382" ry="2.37"/>
+        <path stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.753 57.993h20.595M12.832 64.71h6.225M31 64.71h-3.812M76.872 46h-6.81L66 50.956l3.77 4.002h5.764L79 59.788 75.549 64H67.48"/>
+        <path fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M128.378 40.134l-12.622 7.375v13.987l12.622 7.375L141 61.496V47.51z"/>
+        <path fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M128.378 32.9l-12.622 7.374v13.988l12.622 7.374L141 54.262V40.274z"/>
+        <path fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M128.378 25.268l-12.622 7.375V46.63l12.622 7.375L141 46.63V32.643zM115.767 54.986l-12.622 7.374v13.988l12.622 7.374 12.622-7.374V62.36z"/>
+        <path fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M115.767 47.751l-12.622 7.375v13.988l12.622 7.374 12.622-7.374V55.126z"/>
+        <path fill="#2C334D" stroke="#FECD46" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M115.767 40.12l-12.622 7.374v13.988l12.622 7.374 12.622-7.374V47.494z"/>
+    </g>
+</svg>

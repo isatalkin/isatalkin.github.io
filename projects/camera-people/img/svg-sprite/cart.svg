@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="78" viewBox="0 0 86 78">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#5A06FF" fill-rule="nonzero" d="M43.949 77.83c27.954-1.826 40.8-9.38 41.982-37.717C87.113 11.776 72.825-5.375 46.093 1.525 19.361 8.424 3.241 13.149.304 32.438c-2.937 19.29 15.69 47.219 43.645 45.392z" opacity=".096"/>
+        <text fill="#212121" font-family="Gerbera-Medium, Gerbera" font-size="20" font-weight="400" transform="translate(15 18)">
+            <tspan x="22" y="33">2</tspan>
+        </text>
+        <path stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M70 31.807c-32.136-1.076-49.972-1.076-53.51 0-5.307 1.615 5.1 24.696 7.313 26.26 2.076 1.466 30.165 3.305 35.527.379C64.692 55.52 75.308 29.262 70 32.131M51 30c-5.275-8-8.423-12-9.442-12-1.02 0-4.872 4-11.558 12"/>
+    </g>
+</svg>

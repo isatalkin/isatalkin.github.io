@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main page</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body class="page">
+    <div style="height: 0; width: 0; position: absolute; visibility: hidden;" class="symbols">
+      <!-- inject:svg --><!-- endinject -->
+    </div>
+
+    <div class="popup  popup--login">
+      <div class="login">
+        <button class="login__close" type="button" aria-label="close popup"></button>
+        <h2 class="login__title">Log In to Wiconnect Partner Portal</h2>
+        <form class="login__form" method="post" action="#">
+          <div class="login__input  input-field">
+            <label class="visually-hidden" for="email">Your e-mail</label>
+            <!-- for error condition use class input-field__input--error  -->
+            <input class="input-field__input" type="email" id="email" autocomplete="off" placeholder="E-mail" required>
+            <span class="input-field__decor"></span>
+            <b class="input-field__helper">Something went wrong</b>
+          </div>
+          <div class="login__input  input-field">
+            <label class="visually-hidden" for="password">Your password</label>
+            <input class="input-field__input" type="password" id="password" autocomplete="off" placeholder="Password" required>
+            <span class="input-field__decor"></span>
+            <b class="input-field__helper">Something went wrong</b>
+            <a class="input-field__link" href="#">Forgot?</a>
+          </div>
+          <button class="login__submit  button  button--yellow">Log in</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/login.min.js"></script>
+
+  </body>
+
+</html>

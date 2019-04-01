@@ -1,3 +1,5 @@
+'use strict';
+
 (function () {
   if (window.innerWidth > 767) {
     var controller = new ScrollMagic.Controller();
@@ -5,11 +7,12 @@
 
     for (var i = 0; i < animatedBlocks.length; i++) {
       new ScrollMagic.Scene({
-        triggerElement: animatedBlocks[i]
-      })
-      .setClassToggle(animatedBlocks[i], 'show')
-      .reverse(false)
-      .addTo(controller);
+          triggerElement: animatedBlocks[i],
+          triggerHook: 0.8
+        })
+        .setClassToggle(animatedBlocks[i], 'show')
+        .reverse(false)
+        .addTo(controller);
     }
   }
 })();

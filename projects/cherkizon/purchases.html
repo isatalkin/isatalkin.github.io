@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cherkizovo</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+  </script>
+  <script src="js/libraries/picturefill.min.js" async=""></script>
+</head>
+
+<body>
+
+  <aside class="sidebar" id="sidebar">
+  
+      <a class="sidebar__logo" href="main.html">
+        <img src="img/sidebar-logo.svg" alt="Черкизово">
+      </a>
+      <div class="sidebar__container">
+        <button class="sidebar__button" type="button" aria-label="Открыть меню"></button>
+  
+        <div class="sidebar__menu">
+          <nav class="sidebar__nav">
+            <ul class="sidebar__list">
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="about.html">О компании</a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="brands.html">Бренды</a>
+                <ul class="sidebar__submenu">
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Корпоративная</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Структура</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">География</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">«Черкизово»</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Растениеводство</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Птицеводство</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Свиноводство</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Мясопереработка</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Производство</a>
+                  </li>
+                  <li class="sidebar__submenu-item">
+                    <a class="sidebar__submenu-link" href="#">Индейки</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="investors.html">Инвесторам</a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="press.html">Пресс-центр</a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="partners.html">Партнерам</a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="career.html">Карьера</a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="sales.html">Закупки</a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="search__section  sidebar__search">
+            <h2 class="search__title">Поиск</h2>
+            <form class="search__form" action="search-result.html">
+              <input class="search__input" type="text" name="" id="" placeholder="Например «Путин»" required>
+              <button class="search__submit  button" type="submit">Искать</button>
+            </form>
+          </div>
+  
+          <ul class="controls">
+            <li class="controls__item">
+              <a class="controls__language-select" href="#">Eng</a>
+            </li>
+            <li class="controls__item">
+              <a class="controls__language-select" href="#">Rus</a>
+            </li>
+            <li class="controls__item">
+              <a class="controls__social" href="#" aria-label="Facebook">
+                <svg width="9" height="21" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svg-sprite/sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="controls__item">
+              <a class="controls__search" href="search.html" aria-label="Поиск">
+                <svg width="22" height="22" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svg-sprite/sprite.svg#search"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+  <header class="header  header-purchases">
+    <h1 class="header__title  header-purchases__title">Закупки</h1>
+    <p class="header__description  header-purchases__description">Группа компаний «Черкизово» - крупнейший
+      производитель
+      мяса в России и крупнейший сельскохозяйственный вертикально-интегрированный
+      холдинг в стране. Ежегодный объём закупок Группы превышает 50 миллиардов рублей.</p>
+  </header>
+
+  <main class="purchases">
+
+    <section class="inner-section  purchases__section">
+
+      <div class="purchases__block  purchases__block--tender  animated-block">
+        <h3 class="purchases__subtitle">Принять участие в актуальных тендерах</h3>
+        <p class="purchases__content">Мы регулярно производим контроль нашей продукции на всех этапах ее производства,
+          отвечая самым высоким требованиям
+          клиентов и стандартам качества и безопасности продукции. В числе наших клиентов ведущие игроки сегмента
+          HoReCa
+          – от сетей быстрого обслуживания и операторов доставки пиццы, до кейтеринговых компаний и ресторанов
+          авторской
+          кухни.
+          <a class="button  purchases__link  purchases__link--small" href="#">Требования для участия</a>
+        </p>
+        <div class="purchases__links">
+          <a class="button  purchases__link  purchases__link--big" href="#">Актуальные тендеры</a>
+          <a class="button  purchases__link  purchases__link--big" href="#">Зарегистрироваться для участия</a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="footer" id="footer">
+    <p class="footer__copyright">2005–2018 © ПАО «Гpуппа Чеpкизово»</p>
+    <nav class="footer__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item  nav__item--site-map">
+          <a href="index.html" class="nav__link">Карта сайта</a>
+        </li>
+        <li class="nav__item  nav__item--contacts">
+          <a href="contacts.html" class="nav__link">Контакты</a>
+        </li>
+        <li class="nav__item  nav__item--fb">
+          <a href="#" class="nav__link">Fb</a>
+        </li>
+        <li class="nav__item  nav__item--sc">
+          <a href="#" class="nav__link">Sial Catalogue</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="js/ie-support.js"></script>
+  <script src="js/libraries/svg4everybody.min.js"></script>
+  <script src="js/libraries/polyfill.js"></script>
+  <script src="js/libraries/classList.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/libraries/jquery-3.3.1.min.js"></script>
+  <script src="js/libraries/ScrollMagic.min.js"></script>
+  <script src="js/animated-block.js"></script>
+</body>
+
+</html>

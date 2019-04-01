@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="27" viewBox="0 0 127 27">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#212121" font-family="Gerbera-Bold, Gerbera" font-size="16" font-weight="bold" transform="translate(2 1)">
+            <tspan x="0" y="12">Оборудование</tspan>
+        </text>
+        <path fill-rule="nonzero" stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M2 21c32.72 0 54.493.98 65.316 2.942C78.14 25.904 97.368 25.137 125 21.643"/>
+    </g>
+</svg>

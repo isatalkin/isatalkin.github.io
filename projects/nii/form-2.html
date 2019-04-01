@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>НИИ OChB</title>
+    <link rel="preload" href="fonts/RobotoLight.woff2" as="font">
+    <link rel="preload" href="fonts/SolomonSansBook.woff2" as="font">
+    <link rel="preload" href="fonts/SolomonSansNormal.woff2" as="font">
+    <link rel="preload" href="fonts/SolomonSansSemiBold.woff2" as="font">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+    <section class="popup opened">
+      <h1 class="visually-hidden">Попап формы обратной связи</h1>
+      <button class="popup__btn-close" type="button"><span class="visually-hidden">Закрыть</span>
+        <svg width="28" height="28">
+          <use xlink:href="img/svg.svg#close"></use>
+        </svg>
+      </button>
+      <div class="popup__container popup__container--form">
+        <h2 class="popup__title">Обратная связь</h2>
+        <form class="popup__form form" action="#" method="post">
+          <div class="form__item select-form">
+            <select class="select-form__group" name="theme" id="theme">
+              <option class="select-form__option" value="deafult">Тема</option>
+              <option class="select-form__option" value="theme-1">Тема 1</option>
+              <option class="select-form__option" value="theme-2">Тема 2</option>
+              <option class="select-form__option" value="theme-3">Тема 3</option>
+            </select>
+          </div>
+          <div class="form__item input-form">
+            <input class="input-form__input" type="text" name="name" id="name" required>
+            <label class="input-form__label" for="name">Имя</label>
+            <div class="form__tooltip form__tooltip--empty">поле не заполнено</div>
+          </div>
+          <div class="form__item input-form">
+            <input class="input-form__input" type="text" name="email" id="email" required>
+            <label class="input-form__label" for="email">e-mail</label>
+            <div class="form__tooltip form__tooltip--empty">поле не заполнено</div>
+          </div>
+          <div class="form__item textarea-form">
+            <textarea class="textarea-form__textarea" name="comment" id="comment" required></textarea>
+            <label class="textarea-form__label" for="comment">Комментарий</label>
+            <div class="form__tooltip form__tooltip--empty">поле не заполнено</div>
+          </div>
+          <div class="form__item checkbox-form">
+            <input class="checkbox-form__input" type="checkbox" name="accept" id="accept">
+            <label class="checkbox-form__label" for="accept">Нажимая кнопку, вы принимаете <a class='checkbox-form__link' href='#'>Положение</a> и Согласие на обработку персональных данных</label>
+            <div class="form__tooltip form__tooltip--empty">поле не заполнено</div>
+          </div>
+          <button class="form__submit" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <script src="js/libs/jquery-3.2.1.min.js"></script>
+    <script src="js/libs/svg4everybody.min.js"></script>
+    <script src="js/libs/picturefill.min.js"></script>
+    <script src="js/libs/lazysizes.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vision-menu.js"></script>
+    <script src="js/libs/jquery.formstyler.min.js"></script>
+    <script src="js/libs/perfect-scrollbar.min.js"></script>
+    <script src="js/select.js"></script>
+  </body>
+</html>

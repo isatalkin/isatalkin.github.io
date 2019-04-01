@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.54 61.95">
+    <path d="M74.22,47.8H0A14.15,14.15,0,0,0,14.15,61.95H60.07A14.15,14.15,0,0,0,74.22,47.8Z" style="fill:#ffffff"/>
+    <path d="M60.07,0H14.15A14.15,14.15,0,0,0,0,14.15v.05H74.22A14.15,14.15,0,0,0,60.12,0Z" style="fill:#ffffff"/>
+    <path d="M241.54,47.8H167.32V61.95h60.07a14.14,14.14,0,0,0,14.15-14.13Z" style="fill:#ffffff"/>
+    <path d="M227.39,23.9H167.32V38h74.22A14.15,14.15,0,0,0,227.39,23.9Z" style="fill:#ffffff"/>
+    <path d="M241.54,0H167.32V14.2h60.07A14.15,14.15,0,0,0,241.54.05Z" style="fill:#ffffff"/>
+    <rect x="126.07" y="47.8" width="30.56" height="14.15" style="fill:#ffffff"/>
+    <path d="M156.64,23.9H82.4A14.15,14.15,0,0,0,96.55,38h60.09Z" style="fill:#ffffff"/>
+    <rect x="82.4" width="31.73" height="14.15" style="fill:#ffffff"/>
+    <rect x="125.05" width="31.57" height="14.15" style="fill:#ffffff"/>
+    <rect y="23.9" width="74.09" height="14.15" style="fill:#ffffff"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="75" viewBox="0 0 65 75">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-rule="nonzero" d="M2 0h61v74.477H2z"/>
+        <path stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M32.5 63.304c17.56 2.51 26.953-8.764 26.953-26.983C59.453 18.1 46.93 8.01 32.5 9.337 18.07 10.662 5.547 21.418 5.547 36.32c0 14.902 9.392 24.473 26.953 26.983z"/>
+        <path fill="#FFF" fill-rule="nonzero" stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M3.584 29.446c1.83-3.144 54.538-1.468 57.325 0 2.788 1.468 2.788 20.06 0 21.038-2.787.979-54.948.979-57.325 0-2.377-.978-1.83-17.894 0-21.038z"/>
+        <text fill="#212121" font-family="Gerbera-Bold, Gerbera" font-size="16" font-weight="bold" transform="translate(2 9.22)">
+            <tspan x="4" y="36">WWW</tspan>
+        </text>
+        <path fill="#5A06FF" fill-rule="nonzero" stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M44.91 22.698c3.316 1.703 5-.958 5.05-7.981L39.042 9.93c-3.415.361-5.123 1.39-5.123 3.088 0 1.38 3.849 1.616 6.26 3.545 2.038 1.629 2.452 4.965 4.73 6.135zM26.533 54.773c-3.453-1.407-4.528.64-3.224 6.142l13.04 1.888c.149.432.149-.197 0-1.888-.12-1.375-.887-.98-3.458-2.692-2.17-1.445-3.987-2.483-6.358-3.45z"/>
+    </g>
+</svg>

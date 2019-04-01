@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera People</title>
+    <link rel="preload" href="fonts/Gerbera.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gerbera-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gerbera-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"> -->
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement('picture');
+    </script>
+    <script src="js/libraries/picturefill.min.js" async=""></script>
+  </head>
+
+  <body>
+
+    <div class="global-wrapper">
+
+      <header class="header">
+        <a class="header__logo" href="#">
+          <img alt="Camera People logo" draggable="false" height="72" src="img/content/logo.png" srcset="img/content/logo@2x.png 2x" width="184">
+        </a>
+      
+        <div class="header__wrapper">
+      
+          <nav>
+            <ul class="header__nav-list">
+              <li><a class="header__nav-link" href="#">Оборудование</a></li>
+              <li><span class="header__nav-link header__nav-link--current">Условия</span></li>
+              <li><a class="header__nav-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+      
+          <div class="header__phone">
+            <a class="header__nav-link header__nav-link--phone" href="tel:88007717777">8-800-771-7777</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="catalog">
+
+        <div class="catalog__breadcrumbs">
+          <nav class="breadcrumb">
+            <ul>
+              <li><a href="#">Оборудование</a></li>
+              <li><a href="#">DSLR</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="catalog__wrapper">
+          <div class="catalog__left-column">
+          </div>
+          <div class="catalog__right-column">
+            <section class="catalog__primary">
+
+              <header class="catalog__header">
+
+                <div class="catalog__filter-controls">
+
+
+                  <div class="catalog__filter-mobile-wrapper">
+
+                    <a class="catalog__filter catalog__filter--toggle" href="#">
+                      <span>Фильтры</span>
+                    </a>
+
+                    <a class="catalog__filter catalog__filter--datepicker" href="#">
+                      <span>Период аренды</span>
+                    </a>
+
+                  </div>
+
+                  <div class="catalog__filter-desktop-wrapper">
+                    <span class="catalog__filters-date-title">Беру в аренду</span>
+                    <a class="catalog__filter catalog__filter--date" href="#">
+                      <span>12 дек 2018</span>
+                    </a>
+                    <span class="catalog__filters-date-delimiter">по</span>
+                    <a class="catalog__filter catalog__filter--date" href="#">
+                      <span>13 дек 2018</span>
+                    </a>
+                  </div>
+
+                  <div class="catalog__duration-output">
+                    <span class="catalog__duration-text-mobile">Аренда на</span>
+                    <span class="catalog__duration-number">1</span>
+                    <span class="catalog__duration-unit">день</span>
+                  </div>
+
+                  <div class="catalog__view-mode">
+                    <button class="catalog__button-view-cards"></button>
+                    <button class="catalog__button-view-list"></button>
+                  </div>
+
+                </div>
+
+
+              </header>
+
+              <ul class="catalog__cards catalog__cards--list-view">
+                <li>
+                  <div class="catalog-card catalog-card--view-mode-list">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="catalog-card catalog-card--view-mode-list">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="catalog-card catalog-card--view-mode-list">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="catalog-card catalog-card--view-mode-list">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+
+              <div class="catalog__pagination">
+                <div class="pagination">
+                  <span class="pagination__item pagination__item--active">1</span>
+                  <a class="pagination__item" href="#">2</a>
+                  <a class="pagination__item" href="#">3</a>
+                  <a class="pagination__item" href="#">4</a>
+                  <span class="pagination__item pagination__item--ellipsis">...</span>
+                  <a class="pagination__item" href="#">8</a>
+                </div>
+              </div>
+
+
+            </section>
+
+            <section class="catalog__secondary">
+              <div class="catalog__secondary-title">Тебе так же пригодится:</div>
+
+              <ul class="catalog__cards catalog__cards--cards-view">
+                <li>
+                  <div class="catalog-card">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <!--<div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>-->
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="catalog-card">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <!--<div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>-->
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="catalog-card">
+                    <a class="catalog-card__image" href="#">
+                      <img alt="" src="img/content/similar-1.png">
+                    </a>
+                    <div class="catalog-card__info">
+                      <div class="catalog-card__title">
+                        <a href="#">Canon EOS 5D Mark III Digital SLR</a>
+                      </div>
+                      <!--<div class="catalog-card__about">Новейшая полнокадровая беззеркальная камера с высоким разрешение Sony a7R III оснащается 42,4-мегапиксельным Exmor R CMOS сенсором размера 35,9 x 24 мм с процессором Bionz X. </div>-->
+                      <div class="catalog-card__cost">
+                        <span class="catalog-card__price-current">900 &#x20bd;</span>
+                        <span class="catalog-card__price-previous">1300 &#x20bd;</span>
+                      </div>
+                      <a class="catalog-card__cart" href="#"></a>
+                  
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </section>
+
+          </div>
+        </div>
+
+
+      </main>
+
+      <!-- catalog-overlay - copy from distributing-page.html-->
+      <!--<div class="catalog-overlay">-->
+        <!--<a class="catalog-overlay-basket" href="#">-->
+          <!--<svg xmlns="http://www.w3.org/2000/svg" width="66" height="80" viewBox="0 0 86 78">-->
+            <!--<g fill="none" fill-rule="nonzero">-->
+              <!--<path fill="#04EBCD" d="M43.949 77.83c27.954-1.826 40.8-9.38 41.982-37.717C87.113 11.776 72.825-5.375 46.093 1.525 19.361 8.424 3.241 13.149.304 32.438c-2.937 19.29 15.69 47.219 43.645 45.392z"-->
+                    <!--opacity=".113" />-->
+              <!--<g stroke="#02EBCD" stroke-linecap="round" stroke-width="3">-->
+                <!--<path d="M70 31.807c-32.136-1.076-49.972-1.076-53.51 0-5.307 1.615 5.1 24.696 7.313 26.26 2.076 1.466 30.165 3.305 35.527.379C64.692 55.52 75.308 29.262 70 32.131M51 30c-5.275-8-8.423-12-9.442-12-1.02 0-4.872 4-11.558 12" />-->
+              <!--</g>-->
+            <!--</g>-->
+          <!--</svg>-->
+        <!--</a>-->
+
+      <!--</div>-->
+
+      <footer class="footer">
+        <ul class="footer__nav">
+          <li><a class="footer__nav-link" href="#">Условия</a></li>
+          <li><a class="footer__nav-link" href="#">Оборудование</a></li>
+          <li><a class="footer__nav-link" href="#">Контакты</a></li>
+        </ul>
+        <ul class="socials-list">
+          <li><a class="socials-list__link  socials-list__link--fb" href="#"><span class="visually-hidden">Fb</span></a></li>
+          <li><a class="socials-list__link  socials-list__link--vk" href="#"><span class="visually-hidden">Vk</span></a></li>
+          <li><a class="socials-list__link  socials-list__link--inst" href="#"><span class="visually-hidden">Inst</span></a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+    <!-- Тут подключаются обязательные для всего сайта скрипты -->
+    <script src="js/ie-support.min.js"></script>
+    <script src="js/libraries/svg4everybody.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/menu.js"></script>
+    <!-- Скрипты для отдельной страницы подключайте сюда -->
+
+  </body>
+
+</html>

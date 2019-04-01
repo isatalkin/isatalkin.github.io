@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera People</title>
+    <link rel="preload" href="fonts/Gerbera.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gerbera-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gerbera-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"> -->
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement('picture');
+    </script>
+    <script src="js/libraries/picturefill.min.js" async=""></script>
+  </head>
+
+  <body>
+
+    <div class="global-wrapper">
+
+      <header class="header">
+        <a class="header__logo" href="#">
+          <img alt="Camera People logo" draggable="false" height="72" src="img/content/logo.png" srcset="img/content/logo@2x.png 2x" width="184">
+        </a>
+      
+        <div class="header__wrapper">
+      
+          <nav>
+            <ul class="header__nav-list">
+              <li><a class="header__nav-link" href="#">Оборудование</a></li>
+              <li><span class="header__nav-link header__nav-link--current">Условия</span></li>
+              <li><a class="header__nav-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+      
+          <div class="header__phone">
+            <a class="header__nav-link header__nav-link--phone" href="tel:88007717777">8-800-771-7777</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="main__intro">
+          <h1>Прокат,который все давно ждали</h1>
+          <p>Кажется вам пора снять очередное шедевральное видео, но куда без крутого оборудования? :)</p>
+          <div class="main__intro-button">
+            <a class="btn" href="#">Выбрать оборудование</a>
+          </div>
+        </section>
+
+        <section class="main__about">
+          <div class="main__features">
+            <h2>Мы можем перечислить много причин почему мы лучшие, но вот всего несколько из них :</h2>
+            <ul>
+              <li>Доступен полный ассортимент техники в одном месте</li>
+              <li>Находимся всего в 2-х минутах от м. Беговая</li>
+              <li>Работаем 7 дней в неделю 24&nbsp;часа в сутки</li>
+              <li>Доступна парковка для погрузки&nbsp;/&nbsp;разгрузки</li>
+              <li>Мы можем доставить технику на вашу локацию</li>
+              <li>Предоставляем болшие скидки постоянным клиентам</li>
+              <li>Опытный персонал подскажет что лучше брать</li>
+              <li>Оказываем помощь при погрузке&nbsp;техники</li>
+            </ul>
+          </div>
+
+          <div class="main__video">
+            <video class="main__video-player" controls>
+              <source src="#" type="video/mp4">
+            </video>
+            <a class="main__video-play" href="#"><span class="main__video-play-text">Посмотреть видео о прокате</span></a>
+          </div>
+
+          <div class="main__about-wrapper">
+            <p>Посмотрите видео про основателей проката и подход к работе</p>
+            <a class="btn" href="#">Выбрать оборудование</a>
+          </div>
+        </section>
+
+        <section class="main__equipment">
+          <b>Съемки уже на носу?</b>
+          <div class="main__equipment-title">
+            <h2>Выберите что бы вы хотели арендовать</h2>
+            <a href="#">или посмотрите весь список оборудования</a>
+          </div>
+
+          <ul class="main__catalog">
+
+            <li class="main__catalog-item">
+              <a href="#">
+                <img alt="Камеры" src="img/catalog-item-1.png">
+                <span>Камеры</span>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#"><img alt="Оптика" src="img/catalog-item-2.png">
+                <span>Оптика</span>
+                <small>EF, Sony-e, mft</small>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#">
+                <img alt="Освещение" src="img/catalog-item-3.png">
+                <span>Освещение</span>
+                <small>ДИОДНОЕ, НАКАЛИВАНИЯ</small>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#"><img alt="Стабилизация" src="img/catalog-item-4.png">
+                <span>Стабилизация</span>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#"><img alt="Аудиозапись" src="img/catalog-item-5.png">
+                <span>Аудиозапись</span>
+                <small>CANON, SONY, V-MOUNT</small>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#">
+                <img alt="Штативы" src="img/catalog-item-6.png">
+                <span>Штативы</span>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#">
+                <img alt="Мониторы" src="img/catalog-item-7.png">
+                <span>Мониторы</span>
+                <small>РЕЖИССЕРСКИЕ, НАКАМЕРНЫЕ</small>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#">
+                <img alt="Батареи" src="img/catalog-item-8.png">
+                <span>Батареи</span>
+                <small>CANON, SONY, V-MOUNT</small>
+              </a>
+            </li>
+
+            <li class="main__catalog-item">
+              <a href="#">
+                <img alt="Карты памяти" src="img/catalog-item-9.png">
+                <span>Карты памяти</span>
+                <small>SD, CFLASH, C-FAST, SSD</small>
+              </a>
+            </li>
+
+          </ul>
+          <p class="main__catalog-description">Вы можете посмотреть полный список оборудования и воспользоваться удобным фильтром для выбора аренды</p>
+          <a class="btn" href="#">Посмотреть оборудование</a>
+        </section>
+      </main>
+
+        <footer class="footer">
+          <ul class="footer__nav">
+            <li><a class="footer__nav-link" href="#">Условия</a></li>
+            <li><a class="footer__nav-link" href="#">Оборудование</a></li>
+            <li><a class="footer__nav-link" href="#">Контакты</a></li>
+          </ul>
+          <ul class="socials-list">
+            <li><a class="socials-list__link  socials-list__link--fb" href="#"><span class="visually-hidden">Fb</span></a></li>
+            <li><a class="socials-list__link  socials-list__link--vk" href="#"><span class="visually-hidden">Vk</span></a></li>
+            <li><a class="socials-list__link  socials-list__link--inst" href="#"><span class="visually-hidden">Inst</span></a></li>
+          </ul>
+        </footer>
+
+    </div>
+
+    <!-- Тут подключаются обязательные для всего сайта скрипты -->
+    <script src="js/ie-support.min.js"></script>
+    <script src="js/libraries/svg4everybody.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/menu.js"></script>
+    <!-- Скрипты для отдельной страницы подключайте сюда -->
+
+  </body>
+
+</html>

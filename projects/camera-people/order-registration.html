@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera People</title>
+  <link rel="preload" href="fonts/Gerbera.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gerbera-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gerbera-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"> -->
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement('picture');
+  </script>
+  <script src="js/libraries/picturefill.min.js" async=""></script>
+</head>
+
+<body>
+  <div class="global-wrapper">
+    <header class="header">
+      <a class="header__logo" href="#">
+        <img alt="Camera People logo" draggable="false" height="72" src="img/content/logo.png" srcset="img/content/logo@2x.png 2x" width="184">
+      </a>
+    
+      <div class="header__wrapper">
+    
+        <nav>
+          <ul class="header__nav-list">
+            <li><a class="header__nav-link" href="#">Оборудование</a></li>
+            <li><span class="header__nav-link header__nav-link--current">Условия</span></li>
+            <li><a class="header__nav-link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+    
+        <div class="header__phone">
+          <a class="header__nav-link header__nav-link--phone" href="tel:88007717777">8-800-771-7777</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="order-registration">
+      <h1 class="visually-hidden">Корзина полная</h1>
+      <a class="order-registration__link-back order-registration__link-back--registration" href="#">
+        <svg width="33px" height="16px" viewBox="0 0 33 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>Group 20</title>
+          <desc>Created with Sketch.</desc>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Artboard-Copy" transform="translate(-1190.000000, -161.000000)" fill-rule="nonzero">
+              <g id="Group-20" transform="translate(1192.000000, 155.000000)">
+                <g id="Group-19">
+                  <rect id="Rectangle-Copy-18" x="4" y="2" width="24" height="24"></rect>
+                  <path d="M5,4.5 C10.0982316,8.8742546 13.7648982,12.2075879 16,14.5 C18.2351018,16.7924121 21.0684351,20.1257454 24.5,24.5"
+                    id="Line" stroke="#FF02EC" stroke-width="3" stroke-linecap="round" transform="translate(14.750000, 14.500000) rotate(-44.000000) translate(-14.750000, -14.500000) "></path>
+                  <path d="M7.31799316,8 C5.60699636,8.90446554 4.29266531,9.71720968 3.375,10.4382324 C2.45733469,11.1592552 1.33233469,12.346511 0,14"
+                    id="Line-2" stroke="#FF02EC" stroke-width="3" stroke-linecap="round"></path>
+                  <path d="M7.31799316,14 C5.60699636,14.9044655 4.29266531,15.7172097 3.375,16.4382324 C2.45733469,17.1592552 1.33233469,18.346511 0,20"
+                    id="Line-2-Copy" stroke="#FF02EC" stroke-width="3" stroke-linecap="round" transform="translate(3.658997, 17.000000) scale(-1, 1) translate(-3.658997, -17.000000) "></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <span>Корзина</span>
+      </a>
+      <section class="registration">
+        <div class="registration__header">
+          <h2>Оформление заказа</h2>
+        </div>
+        <form class="registration__form" method="post" action="#">
+          <div class="registration__wrapper">
+            <div class="registration__input-container">
+              <div class="registration__input-wrapper">
+                <div class="registration__error-message">
+                  <div class="registration__error-message-title">Пожалуйста, укажите имя</div>
+                </div>
+                <label>
+                  <input class="registration__input registration__input--name" placeholder="Имя*" type="text" required>
+                </label>
+              </div>
+              <div class="registration__input-wrapper">
+                <div class="registration__error-message">
+                  <div class="registration__error-message-title">Пожалуйста, укажите фамилию</div>
+                </div>
+                <label>
+                  <input class="registration__input registration__input--surname" placeholder="Фамилия*" type="text"
+                    required>
+                </label>
+              </div>
+              <div class="registration__input-wrapper">
+                <div class="registration__error-message">
+                  <div class="registration__error-message-title">Пожалуйста, укажите номер телефона</div>
+                </div>
+                <label>
+                  <input class="registration__input registration__input--phone" placeholder="Телефон*" type="tel"
+                    required>
+                </label>
+              </div>
+              <div class="registration__input-wrapper">
+                <div class="registration__error-message">
+                  <div class="registration__error-message-title">Пожалуйста, укажите адрес электронной почты</div>
+                </div>
+                <label>
+                  <input class="registration__input registration__input--email" placeholder="E-mail*" type="email"
+                    required>
+                </label>
+              </div>
+            </div>
+            <div class="registration__payment">
+            <p>Итого<span>5400 ₽</span></p>
+            <button class="registration__submit btn" type="submit">Оформить заказ</button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li><a class="footer__nav-link" href="#">Условия</a></li>
+        <li><a class="footer__nav-link" href="#">Оборудование</a></li>
+        <li><a class="footer__nav-link" href="#">Контакты</a></li>
+      </ul>
+      <ul class="socials-list">
+        <li><a class="socials-list__link  socials-list__link--fb" href="#"><span class="visually-hidden">Fb</span></a></li>
+        <li><a class="socials-list__link  socials-list__link--vk" href="#"><span class="visually-hidden">Vk</span></a></li>
+        <li><a class="socials-list__link  socials-list__link--inst" href="#"><span class="visually-hidden">Inst</span></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Тут подключаются обязательные для всего сайта скрипты -->
+  <script src="js/ie-support.min.js"></script>
+  <script src="js/libraries/svg4everybody.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/menu.js"></script>
+  <!-- Скрипты для отдельной страницы подключайте сюда -->
+  <script src="#"></script>
+
+</body>
+
+</html>

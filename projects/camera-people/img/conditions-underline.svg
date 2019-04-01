@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="25" viewBox="0 0 76 25">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#212121" font-family="Gerbera-Medium, Gerbera" font-size="16" font-weight="400" transform="translate(2)">
+            <tspan x="4" y="12">Условия</tspan>
+        </text>
+        <path fill-rule="nonzero" stroke="#5A06FF" stroke-linecap="round" stroke-width="3" d="M2 22.431h35.896c8.832 0 15.376 1.419 29.608 0 5.764-.575 7.565-.575 5.404 0"/>
+    </g>
+</svg>
