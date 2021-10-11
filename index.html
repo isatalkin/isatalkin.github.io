@@ -6,54 +6,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>«Sato» - Вёрстка и фронтенд</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
-
-    <h1>Sato</h1>
-    <h2>Вёрстка и фронтенд</h2>
-    <p><b>Адаптив, кроссбраузерность, семантика, оптимизация. И ничего лишнего!</b></p>
-
+  <header class="header">
+    <nav id="navbar">
+      <a href="#welcome-section">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contacts">Contact</a>
+    </nav>
   </header>
-
   <main>
-
-    <section class="projects">
-
-      <h2 class="projects__title">Последние проекты</h2>
-
-      <div class="projects__gallery">
-
-        <div class="projects__item">
-          <h3>Keksobooking</h3>
-          <p>Вёрстка</p>
-          <a class="button" href="https://isatalkin.github.io/keksobooking/" target="_blank">Посмотреть</a>
-        </div>
-
-        <div class="projects__item">
-          <h3>Nerds</h3>
-          <p>JS</p>
-          <a class="button" href="https://isatalkin.github.io/nerds/" target="_blank">Посмотреть</a>
-        </div>
-
-      </div>
-
+    <section id="welcome-section" class="welcome">
+      <h1>Hey I am Ilya</h1>
+      <p>a web developer</p>
     </section>
-
+    <section id="projects" class="projects">
+      <h2>These are some of my projects</h2>
+      <div class="projects-gallery">
+        <a href="https://cherkizovo.com/" target="_blank" class="project-tile">
+          <img src="img/content/projects/screenshot.4.png" alt="Cherkizon">
+          <div class="project-title">
+            <span>&lt;</span>
+            Cherkizon
+            <span>/&gt;</span>
+          </div>
+        </a>
+        <a href="https://hpb.spb.ru/ru/" target="_blank" class="project-tile">
+          <img src="img/content/projects/screenshot.5.png" alt="Nii OChB">
+          <div class="project-title">
+            <span>&lt;</span>
+            Nii OChB
+            <span>/&gt;</span>
+          </div>
+        </a>
+        <a href="https://old.scserv.ru/" target="_blank" class="project-tile">
+          <img src="img/content/projects/screenshot.6.png" alt="SCServ">
+          <div class="project-title">
+            <span>&lt;</span>
+            SCServ
+            <span>/&gt;</span>
+          </div>
+        </a>
+        <a href="https://wiconnect.com/" target="_blank" class="project-tile">
+          <img src="img/content/projects/screenshot.7.png" alt="Wiconnect">
+          <div class="project-title">
+            <span>&lt;</span>
+            Wiconnect
+            <span>/&gt;</span>
+          </div>
+        </a>
+        <a href="https://isatalkin.github.io/keksobooking/" target="_blank" class="project-tile">
+          <img src="img/content/projects/screenshot.8.png" alt="Keksobooking">
+          <div class="project-title">
+            <span>&lt;</span>
+            Keksobooking
+            <span>/&gt;</span>
+          </div>
+        </a>
+        <a href="https://isatalkin.github.io/nerds/" target="_blank" class="project-tile">
+          <img src="img/content/projects/screenshot.9.png" alt="Nerds">
+          <div class="project-title">
+            <span>&lt;</span>
+            Nerds
+            <span>/&gt;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <h2>Let's work together...</h2>
+      <div class="links">
+        <a href="https://t.me/isatalkin" target="_blank">Telegram</a>
+        <a href="https://github.com/isatalkin" id="profile-link" target="_blank">Github</a>
+        <a href="https://www.facebook.com/ilyasatalkin" target="_blank">Facebook</a>
+        <a href="mailto:isatalkin@gmail.com">Send a mail</a>
+      </div>    
+    </section>
   </main>
-
-  <footer>
-
-    <div class="contacts">
-      <a href="https://t.me/isatalkin">Telegram</a>
-      <a href="mailto:isatalkin@gmail.com">Mail</a>
-    </div>
-
-    <p class="copyright">© 2018 - Sato</p>
-
+  <footer class="footer">
+    <p>&copy; Created by Ilya Satalkin</p>
   </footer>
 
 </body>
